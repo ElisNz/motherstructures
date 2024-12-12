@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -12,6 +15,16 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const vollkorn = localFont({
+    src: "./fonts/Vollkorn-Regular.woff",
+    variable: "--font-vollkorn",
+    weight: "100 900",
+  });
+const regencie = localFont({
+    src: "./fonts/RegencieLight.woff",
+    variable: "--font-regencie",
+    weight: "100 900",
+  });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,11 +38,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+        <body
+            className={`${geistSans.variable} ${geistMono.variable} ${vollkorn.variable} ${regencie.variable} antialiased`}
+        >
+            <Header />
+            {children}
+            <Footer />
+        </body>
     </html>
   );
 }
