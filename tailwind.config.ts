@@ -27,11 +27,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        red: "#E71807",
-        green: "#3FAE71",
-        burgundy: "#3E2D2B",
-        sage: "#2B3E34",
-        sageLight: "#6A987F",
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
       },
       fontFamily: {
         vollkorn: ['"Vollkorn"', "serif"],

@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #CECABE;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -88,4 +89,10 @@ p {
         font-size: 1.25rem;
         line-height: 1.5;
     }
+}
+
+.breadtext {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Verdana, sans-serif;
 }
