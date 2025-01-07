@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function About() {
     return (
         <main>
-            <HeroImage src="/images/outdoor1.jpg" />
+            <HeroImage src="/images/Hudson_Clothier_ 5.jpg" />
             <div className="bg-primary">
                 <div className="flex flex-col lg:flex-row justify-around items-center px-8 py-20">
                     <div className="w-1/2 h-full flex flex-col justify-center gap-8">
