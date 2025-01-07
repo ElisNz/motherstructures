@@ -12,7 +12,7 @@ export default function Home() {
         <div className='w-full flex flex-col gap-8 lg:gap-12 pb-12 items-center justify-around'>
             <h1 className='pt-12 md:pt-20'>Building transformative spaces</h1>
             <div className='flex flex-col text-center'>
-                <h2 className='px-4'>Bridging the gap between indoors and outdoors</h2>
+                <h3 className='px-4'>Bridging the gap between indoors and outdoors</h3>
                 <p className='mx-8 lg:mx-[30%] text-pretty pt-4 pb-2 text-left'>"Motherstructures has created a beautiful and super unique solution that perfectly complements who we are. Our courtyard has been transformed into a three-season dining room that wows our customers."</p>
                 <p className='mx-8 lg:mx-[30%] italic pb-8 text-right text-[0.9rem]'>Jeff Gimmel, Proprietor, Le Perche Bakery & Bar</p>
                 <button className='w-fit bg-black text-white px-4 py-2 hover:bg-black/50 self-center'>Learn More</button>

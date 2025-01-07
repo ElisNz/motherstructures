@@ -9,7 +9,7 @@ export default function About() {
             <div className="bg-primary">
                 <div className="flex flex-col lg:flex-row justify-around items-center px-8 py-20">
                     <div className="w-1/2 h-full flex flex-col justify-center gap-8">
-                        <h2 className="text-4xl text-center">Giving birth to Motherstructures</h2>
+                        <h2 className="text-center text-nowrap">Giving birth to Motherstructures</h2>
                         <article className="flex flex-row justify-around gap-8 text-pretty">
                             <p className="w-1/2 breadtext">My name is Charlotta Janssen and I’m an artist and restaurant owner. 
                                 2020 was a hell of a year. When New York City indoor dining shut down, my restaurant team and I were struggling to create a viable outdoor dining solution.
@@ -23,10 +23,20 @@ export default function About() {
                                 <br/>We hope that you will soon find out for yourself! 
                             </p>
                         </article>
-                        <button className='w-1/2 bg-black text-white px-4 py-2 hover:bg-black/50 self-start rounded-md breadtext'>Explore your own motherstructure</button>
+                        <button className='w-1/2 bg-black text-white p-4 hover:bg-black/50 self-start rounded-md breadtext'>Explore your own motherstructure</button>
                     </div>
                     <div className="relative">
                         <Image src="/images/Chez_Oskar-Charlotta-1-1.png" className="rounded-2xl" width={400} height={800} alt="outdoors" />
+                    </div>
+                </div>
+            </div>
+            <div className="bg-white">
+                <div className="flex flex-col lg:flex-row justify-around items-center px-8 py-20">
+                    <Image src="/images/outdoor2.jpg" width={600} height={400} className="rounded-2xl" alt="outdoor" />
+                    <div className="w-1/3 flex flex-col justify-center gap-8 text-pretty">
+                        <h2>Modular one-of-a-kind structures</h2>
+                        <h4 className="text-[1.1rem] font-[Verdana]">We create infinitely versatile designs that expand capacity and bring a unique flair to our clients' spaces.</h4>
+                        <button className='bg-black text-white p-4 hover:bg-black/50 self-start rounded-md breadtext'>Explore your own motherstructure</button>
                     </div>
                 </div>
             </div>
