@@ -19,7 +19,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Regencie, Geneva, Verdana, sans-serif;
+  font-family: Verdana, sans-serif;
 }
 
 h1 {
