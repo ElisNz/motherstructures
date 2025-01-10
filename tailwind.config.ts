@@ -35,6 +35,15 @@ export default {
         regencie: ['"Regencie"', "sans-serif"],
         geist: ['"Geist"', "sans-serif"],
       },
+      padding: {
+        'sm': "1rem",
+        'md': "2rem",
+        'lg': "3rem",
+      },
+    margin: {
+        'md': "2rem",
+        'lg': "3rem",
+        },
     },
   },
   plugins: [],
