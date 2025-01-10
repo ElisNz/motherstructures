@@ -35,13 +35,13 @@ h2 {
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 300;
 }
 
+
 p {
     font-size: 1rem;
-    line-height: 1.5;
 }
 
 @media (min-width: 768px) {
@@ -52,19 +52,18 @@ p {
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 300;
         font-family: Vollkorn, serif;
     }
     
     h3 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-weight: 300;
     }
 
     p {
         font-size: 1.1rem;
-        line-height: 1.6;
     }
 }
 
@@ -82,7 +81,7 @@ p {
     }
     
     h3 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 300;
         font-family: Vollkorn, serif;
     }
@@ -91,5 +90,6 @@ p {
 .breadtext {
     font-size: 14px;
     font-weight: 300;
+    line-height: 1.6;
     font-family: Verdana, sans-serif;
 }

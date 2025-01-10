@@ -38,12 +38,14 @@ export default {
       padding: {
         'sm': "1rem",
         'md': "2rem",
-        'lg': "3rem",
+        'lg': "4rem",
+        'xl': "16rem",
       },
     margin: {
         'md': "2rem",
-        'lg': "3rem",
-        },
+        'lg': "4rem",
+        'xl': "16rem",
+    },
     },
   },
   plugins: [],

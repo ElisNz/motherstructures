@@ -9,7 +9,7 @@ export const FAQ = () => {
         return (
             <div className="w-full flex flex-col bg-black text-white hover:cursor-pointer" onClick={() => setOpen(!open)}>
                 <p className=" p-4 hover:bg-black/50 text-starte">{question}</p>
-                {open && <p className="w-full bg-black text-white px-8 pb-8 hover:bg-black/50 breadtext border-b border-whit">{answer}</p>}
+                {open && <p className="w-full bg-black text-white px-8 pb-8 hover:bg-black/50 breadtext border-b-2 border-white">{answer}</p>}
             </div>
         );
     };

@@ -32,7 +32,7 @@ export default function About() {
                 </div>
             </div>
             <div className="bg-backgroud">
-                <div className="flex flex-col lg:flex-row justify-center items-center gap-20 px-20 py-20">
+                <div className="flex flex-col lg:flex-row justify-center items-center gap-20 p-lg">
                     <Image src="/images/outdoor1.jpg" width={600} height={400} className="w-1/2 rounded-sm" alt="outdoor" />
                     <div className="w-1/3 flex flex-col justify-center gap-8 text-pretty">
                         <h2>Modular one-of-a-kind structures</h2>
@@ -42,7 +42,7 @@ export default function About() {
                 </div>
             </div>
             <div className="bg-secondary m-lg">
-                <div className="flex flex-col lg:flex-row justify-center items-center gap-20 px-20 py-20">              
+                <div className="flex flex-col lg:flex-row justify-center items-center gap-20 p-lg">              
                     <div className="w-1/3 flex flex-col justify-center gap-8 text-pretty">
                         <h2>Extraordinary structures from ordinary parts</h2>
                         <h4 className="text-[1.1rem] font-[Verdana]">Our proprietary system makes innovative use of simple, everyday materials that are fast and easy to assemble but stand up to any weather conditions.</h4>
@@ -52,7 +52,7 @@ export default function About() {
                 </div>
             </div>
             <div className="bg-backgroud">
-                <div className="flex flex-col lg:flex-row justify-center items-center gap-20 px-20 py-20">
+                <div className="flex flex-col lg:flex-row justify-center items-center gap-20 p-lg">
                     <Image src="/images/Hudson_Clothier_ 5.jpg" width={600} height={400} className="w-1/2 rounded-sm" alt="outdoor" />
                     <div className="w-1/3 flex flex-col justify-center gap-8 text-pretty">
                         <h2>Discover the possibilities</h2>
