@@ -42,7 +42,9 @@ export default function RootLayout({
             className={`${geistSans.variable} ${geistMono.variable} ${vollkorn.variable} ${regencie.variable} antialiased`}
         >
             <Header />
-            {children}
+            <main>
+                {children}
+            </main>
             <Footer />
         </body>
     </html>
