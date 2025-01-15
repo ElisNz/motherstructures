@@ -22,7 +22,7 @@ export const FAQ = () => {
     ];
 
     return(
-        <div className="bg-black text-white divide-y-2 divide-white m-20 p-20">
+        <div className="bg-black text-white divide-y-2 divide-white m-20 p-20 rounded-sm">
             <h1>FAQ</h1>
             <ul className="">
                 {items.map((item, index) => (

@@ -1,5 +1,6 @@
 import { Video } from './components/Video';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
 	return (
@@ -14,7 +15,7 @@ export default function Home() {
                 <div className='flex flex-col text-center'>
                     <p className='px-8 lg:px-[30%] text-pretty pt-4 pb-2 text-left'>"Motherstructures has created a beautiful and super unique solution that perfectly complements who we are. Our courtyard has been transformed into a three-season dining room that wows our customers."</p>
                     <p className='px-8 lg:px-[30%] italic pb-8 text-right text-[0.9rem]'>Jeff Gimmel, Proprietor, Le Perche Bakery & Bar</p>
-                    <button className='w-fit bg-black text-white px-sm py-2 hover:bg-black/50 self-center'>Learn More</button>
+                    <Link href="/about" className='w-fit bg-black text-white px-sm py-2 hover:bg-black/50 self-center'>Learn More</Link>
                 </div>
                 <Image src='/images/Hudson_Clothier_ 5.jpg' width={700} height={550} alt='outdoors' className='lg:rounded-sm'/>
             </div>
