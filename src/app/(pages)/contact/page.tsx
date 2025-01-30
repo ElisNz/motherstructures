@@ -27,48 +27,15 @@ export default function Contact() {
     return (
         <main>
             <HeroImage src="/images/Hudson_Clothier_ 5.jpg" text="Build your own Motherstructure" />
-            <div className="mx-lg mt-lg">
+            {/* <div className="mx-lg mt-lg">
                 <div className="w-full flex flex-col px-20 py-md">
                     <h3 className="text-justify">
                         We help you create a one-of-a-kind space that bridges the indoors and outdoors.
                         And since the process is fast and the materials affordable, Motherstructures are accessible for both private homes and small businesses.
                     </h3>
                 </div>
-            </div>
-            <div className="mx-xl py-md">
-                <ul className="grid grid-cols-3 gap-4 justify-center">
-                    <li className="flex flex-col px-md">
-                        <h3>*</h3>
-                        <h3>Cheaper than wood</h3>
-                        <p>Save costs with easy-to-assemble and affordable materials that can be precisely cut with minimal waste.</p>
-                    </li>
-                    <li className="flex flex-col px-md">
-                        <h3>*</h3>
-                        <h3>Flexible</h3>
-                        <p>Our modular structures are easy to adjust. Add doors and windows in the winter, remove them in the spring.</p>
-                    </li>
-                    <li className="flex flex-col px-md">
-                        <h3>*</h3>
-                        <h3>Safe and sound</h3>
-                        <p>Motherstructures are assembled on an ultra-light and ultra-strong grid that withstands heavy storms and snow.</p>
-                    </li>
-                    <li className="flex flex-col px-md">
-                        <h3>*</h3>
-                        <h3>Low maintenance</h3>
-                        <p>Motherstructures age gracefully. An annual powerwash is all you need to keep them in ship shape.</p>
-                    </li>
-                    <li className="flex flex-col px-md">
-                        <h3>*</h3>
-                        <h3>Built-in gutters</h3>
-                        <p>We engineer elegant gutters that guide the water along the structure and are easy to reach and clean. The water runoff feeds plants.</p>
-                    </li>
-                    <li className="flex flex-col px-md">
-                        <h3>*</h3>
-                        <h3>Room to grow</h3>
-                        <p>Add consistent capacity to your business or expand your home with a space that acts as a hybrid between the indoors and outdoors. </p>
-                    </li>
-                </ul>
-            </div>
+            </div> */}
+            <h1 className="w-full my-lg text-center">Contact Us</h1>
             <div className="bg-secondary m-lg">
                 <div className="flex flex-col justify-center items-center gap-20 p-lg">              
                     <form className="flex flex-col items-center gap-8 text-pretty">

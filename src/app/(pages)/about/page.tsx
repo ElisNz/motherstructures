@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function About() {
     return (
         <main>
-            <HeroImage src="/images/about.jpg" text="Giving birth to Motherstructures" />
+            <HeroImage src="/images/about.jpg" text="Giving birth to Motherstructures" textcolor="white" />
             <div className="bg-primary m-lg">
                 <div className="flex flex-col lg:flex-row justify-center items-center gap-20 p-lg">
                     <div className="w-1/2 h-full flex flex-col justify-center gap-8">

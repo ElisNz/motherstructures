@@ -46,12 +46,12 @@ const projects = [
 export default function Projects() {
     return (
         <>
-            <HeroImage src="/images/230609_Le_Perche_ 6 copy.jpg" text="Explore our projects" />
+            <HeroImage src="/images/230609_Le_Perche_ 6 copy.jpg" text="Explore our projects" textcolor="white" />
             <div className="m-lg">
-                <div className="flex flex-col px-20 py-md">
-                    <h3 className="text-center">
+                <div className="flex flex-row">
+                    <h2 className="px-md">
                         Each Motherstructure that we have built is a site-specific solution for small or large spaces with unique needs.
-                    </h3>
+                    </h2>
                 </div>
             </div>
             <div className="h-fit flex flex-row m-lg bg-primary p-lg">
