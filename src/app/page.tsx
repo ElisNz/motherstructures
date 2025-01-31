@@ -11,55 +11,73 @@ export default function Home() {
                 <h1 className='invisible sm:visible lg:px-lg lg:text-[2.5rem] xl:text-[3.5rem]'>Winter gardens for modern spaces</h1>
                 <p className="hidden lg:visible py-sm l wrap-balance text-[1.3rem]">We build super light modular structures that can weather all seasons. <br></br> Our goal is to blend the joy of being outside with the comforts of being inside. </p>
             </div>
-            <div className='flex flex-col gap-8 lg:gap-12 bg-primary items-center justify-around mx-lg mt-lg py-lg'>
-                <div className='flex flex-col text-center'>
-                    <h3 className='px-8 lg:px-[10%] text-pretty pt-4 pb-2 text-left'>"Motherstructures has created a beautiful and super unique solution that perfectly complements who we are. Our courtyard has been transformed into a three-season dining room that wows our customers."</h3>
-                    <p className='px-8 lg:px-[10%] italic pb-8 text-right text-[0.9rem]'>Jeff Gimmel, Proprietor, Le Perche Bakery & Bar</p>
-                    <Link href="/about" className='w-fit bg-black text-white px-sm py-2 hover:bg-black/50 self-center'>Learn More</Link>
+            <div className='flex flex-col gap-8 justify-center items-center m-lg p-md'>
+              <h3 className='w-1/2 tracking-tight'>We build super light modular structures that bridge the gap between indoors and outdoors. Our affordable designs are engineered to last but easy to change and customize.</h3>
+              <Link href="/projects" className='w-fit bg-black text-white p-sm hover:bg-black/50 self-center rounded-sm'>Discover our projects</Link>
+            </div>
+            <div className='flex flex-row gap-8 lg:gap-12 bg-primary justify-evenly mx-lg mt-lg py-lg px-lg'>
+                <div className='w-2/3 flex flex-col'>
+                    <h2 className='text-pretty pt-4 pb-2 text-left tracking-tight'>"Motherstructures has created a beautiful and super unique solution that perfectly complements who we are. Our courtyard has been transformed into a three-season dining room that wows our customers."</h2>
+                    <p className='italic pb-8 text-right tracking-tighter'>Jeff Gimmel, Proprietor, Le Perche Bakery & Bar</p>
+                    <Link href="/about" className='w-fit bg-black text-white px-sm py-2 hover:bg-black/50 rounded-sm'>Learn More</Link>
                 </div>
-                <Image src='/images/Hudson_Clothier_ 5.jpg' width={700} height={550} alt='outdoors' className='lg:rounded-sm'/>
+                <div className='relative w-1/2'>
+                  <Image src='/images/Hudson_Clothier_ 5.jpg' fill alt='outdoors' className='lg:rounded-sm object-cover'/>
+                </div>
             </div>
             <div className="mx-lg mt-lg">
                     <div className="w-full flex flex-col px-lg py-lg">
-                        <h2 className="text-justify">
+                        <h2 className="text-justify tracking-tight px-lg">
                             We help you create a one-of-a-kind space that bridges the indoors and outdoors.
                             And since the process is fast and the materials affordable, Motherstructures are accessible for both private homes and small businesses.
                         </h2>
                     </div>
                 </div>
-                <div className="mx-xl py-lg">
+                <div className="mx-xl my-md">
                     <ul className="grid grid-cols-3 gap-8 justify-center">
-                        <li className="flex flex-col gap-2 px-md">
+                        <li className="flex flex-col gap-4 px-md leading-6">
                             <Asterisk />
-                            <h3>Cheaper than wood</h3>
-                            <p>Save costs with easy-to-assemble and affordable materials that can be precisely cut with minimal waste.</p>
+                            <h3 className='font-[Verdana]'>Cheaper than wood</h3>
+                            <p className='text-[0.9rem]'>Save costs with easy-to-assemble and affordable materials that can be precisely cut with minimal waste.</p>
                         </li>
-                        <li className="flex flex-col gap-2 px-md">
+                        <li className="flex flex-col gap-4 px-md leading-6">
                         <Asterisk />
-                            <h3>Flexible</h3>
-                            <p>Our modular structures are easy to adjust. Add doors and windows in the winter, remove them in the spring.</p>
+                            <h3 className='font-[Verdana]'>Flexible</h3>
+                            <p className='text-[0.9rem]'>Our modular structures are easy to adjust. Add doors and windows in the winter, remove them in the spring.</p>
                         </li>
-                        <li className="flex flex-col gap-2 px-md">
+                        <li className="flex flex-col gap-4 px-md leading-6">
                             <Asterisk />
-                            <h3>Safe and sound</h3>
-                            <p>Motherstructures are assembled on an ultra-light and ultra-strong grid that withstands heavy storms and snow.</p>
+                            <h3 className='font-[Verdana]'>Safe and sound</h3>
+                            <p className='text-[0.9rem]'>Motherstructures are assembled on an ultra-light and ultra-strong grid that withstands heavy storms and snow.</p>
                         </li>
-                        <li className="flex flex-col gap-2 px-md">
+                        <li className="flex flex-col gap-4 px-md leading-6">
                             <Asterisk />
-                            <h3>Low maintenance</h3>
-                            <p>Motherstructures age gracefully. An annual powerwash is all you need to keep them in ship shape.</p>
+                            <h3 className='font-[Verdana]'>Low maintenance</h3>
+                            <p className='text-[0.9rem]'>Motherstructures age gracefully. An annual powerwash is all you need to keep them in ship shape.</p>
                         </li>
-                        <li className="flex flex-col gap-2 px-md">
+                        <li className="flex flex-col gap-4 px-md leading-6">
                             <Asterisk />
-                            <h3>Built-in gutters</h3>
-                            <p>We engineer elegant gutters that guide the water along the structure and are easy to reach and clean. The water runoff feeds plants.</p>
+                            <h3 className='font-[Verdana]'>Built-in gutters</h3>
+                            <p className='text-[0.9rem]'>We engineer elegant gutters that guide the water along the structure and are easy to reach and clean. The water runoff feeds plants.</p>
                         </li>
-                        <li className="flex flex-col gap-2 px-md">
+                        <li className="flex flex-col gap-4 px-md leading-6">
                             <Asterisk />
-                            <h3>Room to grow</h3>
-                            <p>Add consistent capacity to your business or expand your home with a space that acts as a hybrid between the indoors and outdoors. </p>
+                            <h3 className='font-[Verdana]'>Room to grow</h3>
+                            <p className='text-[0.9rem]'>Add consistent capacity to your business or expand your home with a space that acts as a hybrid between the indoors and outdoors. </p>
                         </li>
                     </ul>
+                </div>
+                <div className='flex flex-col gap-8 m-lg py-md px-xl bg-secondary'>
+                  <div>
+                    <h1>Lightweight, strong and versatile</h1>
+                    <p>Due to our inovative use of simple materials, we can create almost any kind of structure, affordably and sustainably.</p>
+                  </div>
+                  <Link href="/about" className='w-fit bg-black text-white p-4 hover:bg-black/50 rounded-sm'>Explore our design components</Link>
+                </div>
+                <div className='flex flex-col items-center gap-8 m-lg py-md'>
+                  <h1>Contact us</h1>
+                  <p>Get started with your own Motherstructure</p>
+                  <Link href="/about" className='w-1/4 bg-black text-white text-center p-sm hover:bg-black/50 rounded-sm'>Get in touch</Link>
                 </div>
             </main>
 	);

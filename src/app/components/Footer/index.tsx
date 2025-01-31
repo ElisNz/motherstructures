@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const Footer = () => {
     return (
-        <footer className="w-full h-fit flex flex-row items-baseline justify-between mt-20 pb-12 px-4 lg:px-20 font-geist">
+        <footer className="w-full h-fit flex flex-row items-baseline justify-between py-lg px-4 lg:px-20 font-geist text-white bg-black/70">
             <div className="flex flex-col gap-2 max-md:hidden">
                 <h3>Motherstructures</h3>
                 <p>Building transformative spaces.</p>
