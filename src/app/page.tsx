@@ -15,7 +15,7 @@ export default function Home() {
               <h2>We build super light modular structures that bridge the gap between indoors and outdoors. Our affordable designs are engineered to last but easy to change and customize.</h2>
               <Link href="/projects" className='w-1/2 bg-black/70 text-white text-center p-sm hover:bg-black/50 self-center rounded-sm'>Discover our projects</Link>
             </div>
-            <div className='flex flex-row gap-8 lg:gap-12 bg-primary justify-evenly mx-lg mt-lg py-lg px-lg'>
+            <div className='flex flex-row gap-8 lg:gap-12 bg-secondary text-white justify-evenly mx-lg mt-lg py-lg px-lg'>
                 <div className='w-2/3 flex flex-col'>
                     <h2 className='text-pretty pt-4 pb-2 text-left tracking-tight'>"Motherstructures has created a beautiful and super unique solution that perfectly complements who we are. Our courtyard has been transformed into a three-season dining room that wows our customers."</h2>
                     <p className='italic pb-8 text-right tracking-tighter'>Jeff Gimmel, Proprietor, Le Perche Bakery & Bar</p>
@@ -25,15 +25,7 @@ export default function Home() {
                   <Image src='/images/Le Perche.jpg' fill alt='outdoors' className='lg:rounded-sm object-cover'/>
                 </div>
             </div>
-            <div className="mx-lg mt-lg">
-                    <div className="w-full flex flex-col px-lg py-lg">
-                        <h2 className="text-justify tracking-tight px-lg">
-                            We help you create a one-of-a-kind space that bridges the indoors and outdoors.
-                            And since the process is fast and the materials affordable, Motherstructures are accessible for both private homes and small businesses.
-                        </h2>
-                    </div>
-                </div>
-                <div className="mx-xl my-md">
+                <div className="mx-xl my-lg">
                     <ul className="grid grid-cols-3 gap-8 justify-center">
                         <li className="flex flex-col gap-4 px-md leading-6">
                             <Asterisk />
@@ -67,7 +59,7 @@ export default function Home() {
                         </li>
                     </ul>
                 </div>
-                <div className='flex flex-col gap-8 m-lg py-lg px-xl bg-secondary'>
+                <div className='flex flex-col gap-8 m-lg py-lg px-xl bg-tertiary text-white'>
                   <div>
                     <h1>Lightweight, strong and versatile</h1>
                     <p className='pt-sm'>Due to our inovative use of simple materials, we can create almost any kind of structure, affordably and sustainably. 

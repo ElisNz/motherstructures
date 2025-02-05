@@ -5,8 +5,9 @@
 :root {
     --background: #FEF9F3;
     --foreground: #171717;
-    --primary: #CECABE;
-    --secondary: #B5BDBC;
+    --primary: #568FAA;
+    --secondary: #51636B;
+    --tertiary: #283033;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -90,8 +91,16 @@ p {
 }
 
 .breadtext {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    font-family: Verdana, sans-serif;
+}
+
+.footnote {
     font-size: 14px;
     font-weight: 300;
     line-height: 1.6;
     font-family: Verdana, sans-serif;
+    font-style: italic;
 }

@@ -29,6 +29,7 @@ export default {
         foreground: "var(--foreground)",
         primary: "var(--primary)",
         secondary: "var(--secondary)",
+        tertiary: "var(--tertiary)",
       },
       fontFamily: {
         vollkorn: ['"Vollkorn"', "serif"],

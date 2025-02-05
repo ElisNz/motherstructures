@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const ProjectCard = ({ title, img, description, slug } : {title: string, img: string, description: string, slug: string}) => {
     return (
-        <Link href={`projects/${slug}`} className="relative w-[450px] h-[400px] transition-all duration-1000 hover:w-[500px]">
+        <Link href={`projects/${slug}`} className="relative w-[450px] h-[400px] transition-all duration-1000 hover:w-[500px] text-black">
             <Image src={img} alt={title} fill className="object-cover rounded-sm" />
             <div className="absolute size-full flex flex-col items-center justify-center bg-white/10 transition duration-300 hover:bg-white/50">
                 <div className="p-lg bg-white/60 text-center rounded-sm">
@@ -18,7 +18,7 @@ const ProjectCard = ({ title, img, description, slug } : {title: string, img: st
 
 const projects = [
     {
-        title: 'Le Perce',
+        title: 'Le Perche',
         img: '/images/230609_Le_Perche_ 15.jpg',
         description: 'Courtyard',
         slug: 'le-perche'
@@ -40,7 +40,37 @@ const projects = [
         img: '/images/La Nacional 3.jpg',
         description: 'Outdoor Canopy',
         slug: 'la-nacional'
-    }
+    },
+    {
+        title: 'DSK Canopy',
+        img: '/images/outdoor2.jpg',
+        description: 'Outdoor Canopy',
+        slug: 'dsk-canopy'
+    },
+    {
+      title: 'Hudson Milliner',
+      img: '/images/little-egg-cover.jpg',
+      description: 'Outdoor Canopy',
+      slug: 'hudson-milliner'
+    },
+    {
+      title: 'Anmwey Eatery',
+      img: '/images/little-egg-cover.jpg',
+      description: 'Outdoor Canopy',
+      slug: 'anmway'
+    },
+    {
+      title: 'Secret Garden',
+      img: '/images/little-egg-cover.jpg',
+      description: 'Outdoor Canopy',
+      slug: 'secret-garden'
+    },
+    {
+      title: 'Zaca Cafe',
+      img: '/images/little-egg-cover.jpg',
+      description: 'Outdoor Canopy',
+      slug: 'zaca'
+    },
 ];
 
 export default function Projects() {
@@ -54,7 +84,7 @@ export default function Projects() {
                     </h2>
                 </div>
             </div>
-            <div className="h-fit flex flex-row m-lg bg-primary p-lg">
+            <div className="h-fit flex flex-row m-lg bg-secondary text-white p-lg">
                 <h2 className="w-1/3">Our Projects</h2>
                 <div className="h-fit flex flex-wrap justify-evenly gap-y-12">
                     {projects.map((project, index) => (
