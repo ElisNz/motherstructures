@@ -10,7 +10,7 @@ export const Header = () => {
             </Link>
             <nav className="max-lg:hidden flex flex-row items-center text-center text-nowrap gap-4 lg:gap-8 underline-offset-2">
                 <Link className=" hover:underline" href="/projects">Projects</Link>
-                <Link className=" hover:underline" href="/services">Design and Material</Link>
+                <Link className=" hover:underline" href="/design">Design and Material</Link>
                 <Link className=" hover:underline" href="/about">Our Story</Link>
                 <Link className=" hover:underline" href="/contact">Contact Us</Link>
                 <Link className=" hover:underline" href="/inspiration">Inspiration</Link>

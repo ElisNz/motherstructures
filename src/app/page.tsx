@@ -11,7 +11,7 @@ export default function Home() {
                 <h1 className='invisible sm:visible lg:px-lg lg:text-[2.5rem] xl:text-[3.5rem]'>Winter gardens for modern spaces</h1>
                 <p className="hidden lg:visible py-sm l wrap-balance text-[1.3rem]">We build super light modular structures that can weather all seasons. <br></br> Our goal is to blend the joy of being outside with the comforts of being inside. </p>
             </div>
-            <div className='flex flex-col gap-8 justify-center items-center m-lg py-md px-xl'>
+            <div className='flex flex-col gap-8 justify-center items-center text-center m-lg py-md px-xl'>
               <h2>We build super light modular structures that bridge the gap between indoors and outdoors. Our affordable designs are engineered to last but easy to change and customize.</h2>
               <Link href="/projects" className='w-1/2 bg-black/70 text-white text-center p-sm hover:bg-black/50 self-center rounded-sm'>Discover our projects</Link>
             </div>
@@ -22,7 +22,7 @@ export default function Home() {
                     <Link href="/about" className='w-1/2 bg-black/70 text-white text-center p-sm hover:bg-black/50 rounded-sm'>Learn More</Link>
                 </div>
                 <div className='relative w-1/2'>
-                  <Image src='/images/Le Perche.jpg' fill alt='outdoors' className='lg:rounded-sm object-cover'/>
+                  <Image src='/images/Le Perche.jpg' fill alt='outdoors' className='lg:rounded-sm object-cover' />
                 </div>
             </div>
                 <div className="mx-xl my-lg">
