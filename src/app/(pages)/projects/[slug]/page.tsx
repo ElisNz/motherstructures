@@ -11,6 +11,7 @@ const projects = [
         quote: 'We transformed our outdoor dining experience with a strong and efficient solution that exceeded my expectations',
         attributee: 'Charlotta Janssen - Owner, Chez Oscar',
         topImage: '/images/200709_Chez_Oskar_ 200730_Hudson_ 0759 1.jpg',
+        textColor: 'white',
         topText: `Chez Oskar’s sidewalk and roadside canopies are the original Motherstructures. 
                 They were born as a response to the restaurant’s struggle with outdoor dining tents (a lifeline during pandemic restrictions in 2021) as they kept blowing away and leaking rain on customers. 
                 Motherstructure founder Charlotta, who also owns Chez Oskar, was determined to build something better and adopted “Fight ugly times with beauty” as her rallying cry. 
