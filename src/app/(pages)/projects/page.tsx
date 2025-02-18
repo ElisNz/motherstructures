@@ -77,8 +77,8 @@ export default function Projects() {
     return (
         <>
             <HeroImage src="/images/230609_Le_Perche_ 6 copy.jpg" text="Explore our projects" textcolor="white" />
-            <div className="m-lg">
-              <h2 className="px-md">
+            <div className="m-lg flex flex-row justify-center">
+              <h2 className="w-3/4 px-md">
                   Each Motherstructure that we have built is a site-specific solution for small or large spaces with unique needs.
               </h2>
             </div>
