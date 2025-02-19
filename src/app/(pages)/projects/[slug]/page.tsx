@@ -114,6 +114,159 @@ const projects = [
         },  
       ],
   },
+  {
+    id: 4,
+    title: 'La Nacional',
+    slug: 'la-nacional',
+    heroImage: '/images/240517_ La_Nacional .jpg',
+    textColor: 'white',
+    description: 'La Nacional - Roadside canopy and shed',
+    quote: 'The originality of our Motherstructure garners so much attention that sales have increased in ways no one expected. Customers love that it covers them but allows light and our staff appreciates the extra business it brings.',
+    attributee: 'Robert Sanfiz, General Manager, La Nacional',
+    topImage: '/images/La Nacional 3.jpg',
+    topText: `This 150+-year-old restaurant — the oldest Spanish social and cultural institution in the United States —
+    has benefitted year-round from its multi-tasking Motherstructure. The boldly curved construction transforms from an open-air canopy in the summer to a translucent, sculptural shelter with modular doors and walls during the colder months.`,
+    sectionsl: [
+        {
+            img: '/images/240517_ La_Nacional .jpg', 
+            text: `Having such a large structure placed prominently on a busy Manhattan throughway was a great test of its strength and durability. To this day, it has maintained its shape and weathered several tropical storms and blizzards. During the summer, La Nacional puts its own Gallic spin on the canopy by adding red foil squares in a checkerboard pattern.`
+        },
+        
+        {
+            img: '/images/240517_La Nacional.jpg', 
+        },
+    ],
+    sectionsr: [
+      {
+        img: '/images/240517_ Nacional.jpg', 
+        text: `Occupying a busy stretch of 14th Street in Greenwich Village, La Nacional’s striking roadside Motherstructure is a form of advertising in itself. Its undulating design stops many curious pedestrians in their tracks, sparking comments and conversations that often segue into a dining experience. “When you see that a restaurant cares about presenting itself the best way it can, it’s a sign of effort that inspires confidence,” says La Nacional’s GM Robert Sanfiz.`
+      },
+    ],
+    bottomImage: '/images/La Nacional Drawing.jpg',
+  },
+  {
+    id: 5,
+    title: 'DSK',
+    slug: 'dsk-canopy',
+    heroImage: '/images/outdoor2.jpg',
+    textColor: 'white',
+    description: 'DSK — Covered Courtyard with transom windows',
+    quote: 'The structure is not only beautiful but cost-effective. When we initially looked into covering the courtyard, every other solution was two or three times more expensive and nowhere near as unique.',
+    attributee: 'Jeff Gimmel, Proprietor, Le Perche',
+    topImage: '/images/La Nacional 3.jpg',
+    topText: `The soaring Motherstructure that covers the large patio of this popular French-inspired bakery and restaurant in Hudson, New York, solved several business-critical problems. It connected the rear building that houses the bakery with the main restaurant, allowing the all-day, back-and-forth transportation of baked goods to run smoothly without weather interference. It also gave the restaurant a nearly year-round oasis for events and consistent capacity dining.`,
+    sectionsl: [
+        {
+            img: '/images/IMG-20240201-DSK-WA00102.jpg', 
+            text: `When the weather cools down in the fall, modular walls can be added to block drafty passages. Because the design is flexible and versatile, it’s easy to build around existing architectural elements like staircases and ledges. The material is cut and customized to precision and suspended in ways that take up minimal space. Invisible built-in gutters direct rainwater away from walls while being easy to clean and maintain.`
+        },
+        
+        {
+            img: '/images/240517_La Nacional.jpg', 
+        },
+    ],
+    sectionsr: [
+      {
+        img: '/images/IMG-20240201-DSK-WA00052.jpg', 
+        text: `The design, especially the lofty 20-foot center cupola, was inspired by the Art Nouveau architecture of Victorian winter gardens, but rendered in a modern, modular, and low-maintenance version. The structure has been engineered to naturally provide ventilation and cooling, as air circulates through the remote-controlled electric transoms and side windows.`
+      },
+    ],
+    bottomImage: '/images/DSK-DM-f-crop.jpg',
+  },
+  {
+    id: 6,
+    title: 'Hudson - Milliner',
+    slug: 'hudson-milliner',
+    heroImage: '/images/Hudson_Clothier_ 5.jpg',
+    textColor: 'white',
+    description: 'Hudson - Milliner',
+    quote: 'The structure is not only beautiful but cost-effective. When we initially looked into covering the courtyard, every other solution was two or three times more expensive and nowhere near as unique.',
+    attributee: 'Jeff Gimmel, Proprietor, Le Perche',
+    topImage: '/images/Hudson_Milliner-WA0063.jpg',
+    topText: `The soaring Motherstructure that covers the large patio of this popular French-inspired bakery and restaurant in Hudson, New York, solved several business-critical problems. It connected the rear building that houses the bakery with the main restaurant, allowing the all-day, back-and-forth transportation of baked goods to run smoothly without weather interference. It also gave the restaurant a nearly year-round oasis for events and consistent capacity dining.`,
+    sectionsl: [
+        {
+            img: '/images/Hudson_Milliner-WA00612.jpg', 
+            text: `When the weather cools down in the fall, modular walls can be added to block drafty passages. Because the design is flexible and versatile, it’s easy to build around existing architectural elements like staircases and ledges. The material is cut and customized to precision and suspended in ways that take up minimal space. Invisible built-in gutters direct rainwater away from walls while being easy to clean and maintain.`
+        },
+    ],
+    sectionsr: [
+      {
+        img: '/images/Hudson_Milliner-WA0056-e1713846722840.jpg', 
+        text: `The design, especially the lofty 20-foot center cupola, was inspired by the Art Nouveau architecture of Victorian winter gardens, but rendered in a modern, modular, and low-maintenance version. The structure has been engineered to naturally provide ventilation and cooling, as air circulates through the remote-controlled electric transoms and side windows.`
+      },
+    ],
+    bottomImage: '/images/DSK-DM-f-crop.jpg',
+  },
+  {
+    id: 7,
+    title: 'Amnway Eatery',
+    slug: 'amnway',
+    heroImage: '/images/hhhggtt.jpg',
+    textColor: 'white',
+    description: 'Amnway Eatery',
+    quote: 'The structure is not only beautiful but cost-effective. When we initially looked into covering the courtyard, every other solution was two or three times more expensive and nowhere near as unique.',
+    attributee: 'Jeff Gimmel, Proprietor, Le Perche',
+    topImage: '/images/hhhggtt.jpg',
+    topText: `The soaring Motherstructure that covers the large patio of this popular French-inspired bakery and restaurant in Hudson, New York, solved several business-critical problems. It connected the rear building that houses the bakery with the main restaurant, allowing the all-day, back-and-forth transportation of baked goods to run smoothly without weather interference. It also gave the restaurant a nearly year-round oasis for events and consistent capacity dining.`,
+    sectionsl: [
+        {
+            img: '/images/amnway.jpg', 
+        },
+    ],
+    sectionsr: [
+      {
+        text: `The design, especially the lofty 20-foot center cupola, was inspired by the Art Nouveau architecture of Victorian winter gardens, but rendered in a modern, modular, and low-maintenance version. The structure has been engineered to naturally provide ventilation and cooling, as air circulates through the remote-controlled electric transoms and side windows.`
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: 'Secret Garden',
+    slug: 'secret-garden',
+    heroImage: '/images/Secret-Garden-sidewalk-1.jpg',
+    textColor: 'white',
+    description: 'Secret Garden',
+    quote: 'The structure is not only beautiful but cost-effective. When we initially looked into covering the courtyard, every other solution was two or three times more expensive and nowhere near as unique.',
+    attributee: 'Jeff Gimmel, Proprietor, Le Perche',
+    topImage: '/images/Secret-garden-11-aah.jpg',
+    topText: `The soaring Motherstructure that covers the large patio of this popular French-inspired bakery and restaurant in Hudson, New York, solved several business-critical problems. It connected the rear building that houses the bakery with the main restaurant, allowing the all-day, back-and-forth transportation of baked goods to run smoothly without weather interference. It also gave the restaurant a nearly year-round oasis for events and consistent capacity dining.`,
+    sectionsl: [
+        {
+            img: '/images/secret-garden-gh.jpg', 
+        },
+    ],
+    sectionsr: [
+      {
+        text: `The design, especially the lofty 20-foot center cupola, was inspired by the Art Nouveau architecture of Victorian winter gardens, but rendered in a modern, modular, and low-maintenance version. The structure has been engineered to naturally provide ventilation and cooling, as air circulates through the remote-controlled electric transoms and side windows.`
+      },
+    ],
+    bottomImage: '/images/IMG-20240201-WA0020.jpg',
+  },
+  {
+    id: 9,
+    title: 'Zaca Cafe',
+    slug: 'zaca',
+    heroImage: '/images/gggsdfdf.jpg',
+    textColor: 'white',
+    description: 'Zaca Cafe',
+    quote: 'The structure is not only beautiful but cost-effective. When we initially looked into covering the courtyard, every other solution was two or three times more expensive and nowhere near as unique.',
+    attributee: 'Jeff Gimmel, Proprietor, Le Perche',
+    topImage: '/images/gggsdfdf.jpg',
+    topText: `The soaring Motherstructure that covers the large patio of this popular French-inspired bakery and restaurant in Hudson, New York, solved several business-critical problems. It connected the rear building that houses the bakery with the main restaurant, allowing the all-day, back-and-forth transportation of baked goods to run smoothly without weather interference. It also gave the restaurant a nearly year-round oasis for events and consistent capacity dining.`,
+    sectionsl: [
+        {
+            img: '/images/Zaca-Cefe-fyg.jpg', 
+            text: 'Researching materials, Charlotta discovered that ultra-light steel pipes and corrugated clear polycarbonate siding were perfect for the kind of dining structures she wanted to create. The versatile system gave her the freedom to create canopies with curves and connections of various angles. The flexible assembly also allowed for easy modifications and “editing.”'
+        },
+    ],
+    sectionsr: [
+      {
+        img: '/images/Zaca-cafe-11.jpg',
+        text: `The design, especially the lofty 20-foot center cupola, was inspired by the Art Nouveau architecture of Victorian winter gardens, but rendered in a modern, modular, and low-maintenance version. The structure has been engineered to naturally provide ventilation and cooling, as air circulates through the remote-controlled electric transoms and side windows.`
+      },
+    ],
+  },
 ];
 
 /* export async function generateStaticParams() {
@@ -153,34 +306,29 @@ export default async function Project({ params } : {params: Promise<{ slug: stri
             <div className="mx-md my-md px-lg grid grid-cols-2 tracking-wide gap-[1rem]">
               <div className="w-full flex flex-col shrink-1">
                 {sectionsl?.map((section, index) => (
-                        <div key={index} className="flex flex-col items-end">
-                          {section.img &&
-                          <div className="relative w-full h-[60vh]">
-                              <Image src={section.img} alt={title} fill className="max-h-[90vh] rounded-sm object-cover" />
-                            </div>
-                          }
-                            <p className="breadtext py-lg px-md">{section.text}</p>
-                        </div>
+                    <div key={index} className="flex flex-col items-end">
+                      {section.img &&
+                          <Image src={section.img} alt={title} width={700} height={500} className="object-fit max-h-[90vh] rounded-sm" />
+                      }
+                        <p className="breadtext py-lg px-md">{section.text}</p>
+                    </div>
                 ))}                
               </div>
               <div className="flex flex-col shrink-1">
                 {sectionsr?.map((section, index) => (
-                        <div key={index} className="flex flex-col items-start">
-                          <p className="breadtext py-lg px-md">{section.text}</p>
-                          {section.img &&
-                            <div className="relative w-full h-[80vh]">
-                              <Image src={section.img} alt={title} fill className="max-h-[90vh] rounded-sm object-cover" />
-                            </div>
-                          }
-                          
-                        </div>
+                      <div key={index} className="flex flex-col items-start">
+                        <p className="breadtext py-lg px-md">{section.text}</p>
+                        {section.img &&
+                            <Image src={section.img} alt={title} width={700} height={500} className="max-h-[90vh] rounded-sm object-fit" />
+                        }   
+                      </div>
                   ))}
                 </div>
                 
             </div>
-            {bottomImage && bottomText &&
+            {bottomImage &&
                   <div className="flex flex-col mb-lg mt-md mx-lg gap-2 items-center">
-                    <Image src={bottomImage} alt={title} width={700} height={2000} className="max-h-[90vh] rounded-sm" />
+                    <Image src={bottomImage} alt={title} width={2000} height={2000} className="max-h-[90vh] rounded-sm" />
                     <p className="w-1/2 footnote text-pretty text-center p-sm">{bottomText}</p>
                   </div>
                 }

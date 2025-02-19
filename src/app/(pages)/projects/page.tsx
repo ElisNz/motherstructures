@@ -49,25 +49,25 @@ const projects = [
     },
     {
       title: 'Hudson Milliner',
-      img: '/images/little-egg-cover.jpg',
+      img: '/images/Hudson_Milliner-WA0063.jpg',
       description: 'Outdoor Canopy',
       slug: 'hudson-milliner'
     },
     {
       title: 'Anmwey Eatery',
-      img: '/images/little-egg-cover.jpg',
+      img: '/images/amnway.jpg',
       description: 'Outdoor Canopy',
-      slug: 'anmway'
+      slug: 'amnway'
     },
     {
       title: 'Secret Garden',
-      img: '/images/little-egg-cover.jpg',
+      img: '/images/Secret-Garden-sidewalk-1.jpg',
       description: 'Outdoor Canopy',
       slug: 'secret-garden'
     },
     {
       title: 'Zaca Cafe',
-      img: '/images/little-egg-cover.jpg',
+      img: '/images/Zaca-Cefe-fyg.jpg',
       description: 'Outdoor Canopy',
       slug: 'zaca'
     },
