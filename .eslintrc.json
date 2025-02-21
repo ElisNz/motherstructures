@@ -1,8 +1,6 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"],
-  "rules": {
-    "indent": [
-      "warning", "4"
-    ]
-  }
+    "extends": ["next/core-web-vitals", "next/typescript"],
+    "rules": {
+        "indent": ["warning", "4"]
+    }
 }
