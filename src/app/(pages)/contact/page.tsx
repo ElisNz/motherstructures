@@ -34,16 +34,8 @@ export default function Contact() {
                 src="/images/Hudson_Clothier_ 5.jpg"
                 text="Build your own Motherstructure"
             />
-            {/* <div className="mx-lg mt-lg">
-                <div className="w-full flex flex-col px-20 py-md">
-                    <h3 className="text-justify">
-                        We help you create a one-of-a-kind space that bridges the indoors and outdoors.
-                        And since the process is fast and the materials affordable, Motherstructures are accessible for both private homes and small businesses.
-                    </h3>
-                </div>
-            </div> */}
             <h1 className="w-full my-lg text-center">Contact Us</h1>
-            <div className="bg-secondary m-lg">
+            <div className="bg-secondary m-lg shadow-[5px_5px_0_0_#171717]">
                 <div className="flex flex-col justify-center items-center gap-20 p-lg">
                     <form className="flex flex-col items-center gap-8 text-pretty">
                         <h2>Tell us about your project</h2>
@@ -203,7 +195,7 @@ export default function Contact() {
                         <input
                             type="submit"
                             value="Submit"
-                            className="bg-black text-white p-sm hover:bg-black/50 rounded-sm breadtext hover:cursor-pointer"
+                            className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#171717] hover:shadow-[-5px_-5px_0_0_#171717] hover:bg-primary hover:cursor-pointer"
                         />
                     </form>
                 </div>

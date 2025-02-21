@@ -10,14 +10,14 @@ export default function About() {
                 text="Giving birth to Motherstructures"
                 textcolor="white"
             />
-            <div className="bg-primary m-lg">
+            <div className="bg-primary m-lg shadow-[5px_5px_0_0_#283033]">
                 <div className="flex flex-col lg:flex-row justify-center items-center gap-20 p-lg">
                     <div className="w-1/2 h-full flex flex-col justify-center gap-8">
                         <h2 className="text-start text-nowrap">
                             How it started
                         </h2>
-                        <article className="flex flex-row justify-around gap-8 text-pretty">
-                            <p className="w-1/2 breadtext">
+                        <article className="flex flex-row justify-around gap-8 text-pretty leading-6 tracking-tight">
+                            <p className="w-1/2">
                                 My name is Charlotta Janssen and I’m an artist
                                 and restaurant owner. 2020 was a hell of a year.
                                 When New York City indoor dining shut down, my
@@ -36,14 +36,13 @@ export default function About() {
                                 winter garden meets an outdoor dining shed for
                                 modern times.
                             </p>
-                            <p className="w-1/2 breadtext">
+                            <p className="w-1/2">
                                 Mother Structures are made of humble materials
                                 (steel pipes and corrugated clear plastic
                                 siding) that become elegant and extremely
                                 durable when they’re brought together. They are
                                 flexible and easy to work with, almost like a
                                 Lego system.
-                                <br />
                                 <br />
                                 <br />
                                 The possibilities for building all kinds of
@@ -54,14 +53,14 @@ export default function About() {
                                 yourself!
                             </p>
                         </article>
-                        <button className="w-1/2 bg-black text-white p-sm hover:bg-black/50 rounded-sm breadtext">
+                        <button className="w-fit text-[1.4em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#171717] hover:shadow-[-5px_-5px_0_0_#171717] hover:bg-primary">
                             Explore your own motherstructure
                         </button>
                     </div>
                     <div className="relative">
                         <Image
                             src="/images/Chez_Oskar-Charlotta-1-1.png"
-                            className="rounded-sm"
+                            className="rounded-sm shadow-[5px_5px_0_0_#283033]"
                             width={400}
                             height={800}
                             alt="outdoors"
@@ -69,7 +68,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div className="bg-backgroud">
+            <div className="bg-background">
                 <div className="flex flex-col lg:flex-row justify-center items-center gap-20 p-lg">
                     <Image
                         src="/images/outdoor1.jpg"
@@ -85,13 +84,13 @@ export default function About() {
                             capacity and bring a unique flair to our clients'
                             spaces.
                         </h4>
-                        <button className="bg-black text-white p-sm hover:bg-black/50 self-start rounded-sm breadtext">
+                        <button className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#171717] hover:shadow-[-5px_-5px_0_0_#171717] hover:bg-primary">
                             See what we have built
                         </button>
                     </div>
                 </div>
             </div>
-            <div className="bg-secondary m-lg">
+            <div className="bg-secondary m-lg shadow-[5px_5px_0_0_#283033] text-white">
                 <div className="flex flex-col lg:flex-row justify-center items-center gap-20 p-lg">
                     <div className="w-1/3 flex flex-col justify-center gap-8 text-pretty">
                         <h2>Extraordinary structures from ordinary parts</h2>
@@ -100,8 +99,8 @@ export default function About() {
                             simple, everyday materials that are fast and easy to
                             assemble but stand up to any weather conditions.
                         </h4>
-                        <button className="bg-black text-white p-sm hover:bg-black/50 self-start rounded-sm breadtext">
-                            Lear more about our designs
+                        <button className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#171717] hover:shadow-[-5px_-5px_0_0_#171717] hover:bg-primary">
+                            Learn more about our designs
                         </button>
                     </div>
                     <Image
@@ -130,7 +129,7 @@ export default function About() {
                             makes it possible to make the most fantastical
                             concepts a reality.
                         </h4>
-                        <button className="bg-black text-white p-sm hover:bg-black/50 self-start rounded-sm breadtext">
+                        <button className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#171717] hover:shadow-[-5px_-5px_0_0_#171717] hover:bg-primary">
                             Get inspired
                         </button>
                     </div>

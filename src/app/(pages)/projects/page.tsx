@@ -16,7 +16,7 @@ const ProjectCard = ({
     return (
         <Link
             href={`projects/${slug}`}
-            className="relative w-[450px] h-[400px] transition-all duration-1000 hover:w-[500px] text-black"
+            className="relative w-[450px] h-[400px] transition-all duration-1000 hover:w-[500px] text-black shadow-[5px_5px_0_0_#283033] hover:shadow-[-5px_-5px_0_0_#283033]"
         >
             <Image
                 src={img}
@@ -105,7 +105,7 @@ export default function Projects() {
                     solution for small or large spaces with unique needs.
                 </h2>
             </div>
-            <div className="h-fit flex flex-row m-lg bg-secondary text-white p-lg">
+            <div className="h-fit flex flex-row m-lg bg-secondary text-white p-lg shadow-[5px_5px_0_0_#283033]">
                 <h2 className="w-1/3">Our Projects</h2>
                 <div className="h-fit flex flex-wrap justify-evenly gap-y-12">
                     {projects.map((project, index) => (

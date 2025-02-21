@@ -316,14 +316,14 @@ export default async function Project({
                 <h3 className="text-center">"{quote}"</h3>
                 <p className="self-end">{attributee}</p>
             </div>
-            <div className="flex flex-col gap-y-4 mx-md p-lg bg-secondary text-white rounded-sm">
+            <div className="flex flex-col gap-y-4 mx-md p-lg bg-secondary text-white rounded-sm shadow-[5px_5px_0_0_#283033]">
                 <div className="flex flex-row items-center">
                     <div className="relative w-2/3 min-h-[400px]">
                         <Image
                             src={topImage}
                             alt="A large image depicting the site"
                             fill
-                            className="object-cover rounded-sm"
+                            className="object-cover rounded-sm shadow-[5px_5px_0_0_#283033]"
                         />
                     </div>
                     <h2 className="w-1/3 text-pretty text-center">
@@ -332,7 +332,7 @@ export default async function Project({
                 </div>
                 <p className="breadtext text-pretty">{topText}</p>
             </div>
-            <div className="mx-md my-md px-lg grid grid-cols-2 tracking-wide gap-[1rem]">
+            <div className="mx-md my-md px-lg pt-lg grid grid-cols-2 tracking-wide gap-[1rem]">
                 <div className="w-full flex flex-col shrink-1">
                     {sectionsl?.map((section, index) => (
                         <div key={index} className="flex flex-col items-end">

@@ -26,25 +26,25 @@ export default function Home() {
                 <div className='w-full flex flex-col gap-8 items-evenly text-nowrap text-[1.5em] tracking-wide'>
                   <Link
                       href="/projects"
-                      className="w-fit ml-[10%] pl-lg bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#171717] hover:shadow-[-5px_-5px_0_0_#171717] hover:bg-primary"
+                      className="capitalize w-fit ml-[10%] pl-lg bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#283033] hover:shadow-[-5px_-5px_0_0_#283033] hover:bg-primary"
                   >
                       discover our projects
                   </Link>
                   <Link
                       href="/inspiration"
-                      className="w-fit ml-[30%] pl-xl bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#171717] hover:shadow-[-5px_-5px_0_0_#171717] hover:bg-secondary hover:text-white"
+                      className="capitalize w-fit ml-[30%] pl-xl bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#283033] hover:shadow-[-5px_-5px_0_0_#283033] hover:bg-secondary hover:text-white"
                   >
                       get inspired
                   </Link>
                   <Link
                       href="/contact"
-                      className="w-fit ml-[50%] pl-xl bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#171717] hover:shadow-[-5px_-5px_0_0_#171717] hover:bg-tertiary hover:text-white"
+                      className="capitalize w-fit ml-[50%] pl-xl bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#283033] hover:shadow-[-5px_-5px_0_0_#283033] hover:bg-tertiary hover:text-white"
                   >
                       get in touch
                   </Link>
                 </div>
             </div>
-            <div className="flex flex-row gap-8 lg:gap-12 bg-secondary text-white justify-evenly mx-lg mt-lg py-lg px-lg">
+            <div className="flex flex-row gap-8 lg:gap-12 bg-secondary text-white justify-evenly mx-lg mt-lg py-lg px-lg shadow-[5px_5px_0_0_#283033]">
                 <div className="w-2/3 flex flex-col">
                     <h2 className="text-pretty pt-4 pb-2 text-left tracking-tight">
                         "Motherstructures has created a beautiful and super
@@ -52,12 +52,12 @@ export default function Home() {
                         Our courtyard has been transformed into a three-season
                         dining room that wows our customers."
                     </h2>
-                    <p className="italic pb-8 text-right tracking-tighter">
+                    <p className="pb-8 text-right tracking-tighter text-[1em]">
                         Jeff Gimmel, Proprietor, Le Perche Bakery & Bar
                     </p>
                     <Link
                         href="/about"
-                        className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#171717] hover:shadow-[-5px_-5px_0_0_#171717] hover:bg-primary"
+                        className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#283033] hover:shadow-[-5px_-5px_0_0_#283033] hover:bg-primary"
                     >
                         Learn More
                     </Link>
@@ -67,7 +67,7 @@ export default function Home() {
                         src="/images/Le Perche.jpg"
                         fill
                         alt="outdoors"
-                        className="lg:rounded-sm object-cover"
+                        className="lg:rounded-sm object-cover shadow-[5px_5px_0_0_#283033]"
                     />
                 </div>
             </div>
@@ -128,7 +128,7 @@ export default function Home() {
                     </li>
                 </ul>
             </div>
-            <div className="flex flex-col gap-8 m-lg py-lg px-xl bg-tertiary text-white">
+            <div className="flex flex-col gap-8 m-lg py-lg px-xl bg-tertiary text-white shadow-[5px_5px_0_0_#171717]">
                 <div>
                     <h1>Lightweight, strong and versatile</h1>
                     <p className="pt-sm">
@@ -143,15 +143,23 @@ export default function Home() {
                         src="/images/230609_Le_Perche_ 15.jpg"
                         fill
                         alt="outdoors"
-                        className="lg:rounded-sm object-cover"
+                        className="lg:rounded-sm object-cover shadow-[5px_5px_0_0_#171717]"
                     />
                 </div>
-                <Link
-                    href="/about"
-                    className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#171717] hover:shadow-[-5px_-5px_0_0_#171717] hover:bg-primary"
-                >
-                    Explore our design components
-                </Link>
+                <div className='w-full flex flex-row justify-between'>
+                  <Link
+                      href="/design"
+                      className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#171717] hover:shadow-[-5px_-5px_0_0_#171717] hover:bg-primary"
+                  >
+                      Explore our design components
+                  </Link>
+                  <Link
+                      href="/about"
+                      className="w-1/2 text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#171717] hover:shadow-[-5px_-5px_0_0_#171717] hover:bg-primary"
+                  >
+                      About
+                  </Link>
+                </div>
             </div>
             <div className="flex flex-col items-center gap-8 m-lg py-md">
                 <h1>Contact us</h1>
