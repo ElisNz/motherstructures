@@ -13,20 +13,20 @@ export const Header = () => {
                     className="hover:cursor-pointer"
                 />
             </Link>
-            <nav className="max-lg:hidden flex flex-row items-center text-center text-nowrap font-serif tracking-widest text-[1em] gap-4 lg:gap-8 underline-offset-2">
-                <Link className=" hover:underline" href="/projects">
+            <nav className="max-lg:hidden flex flex-row items-center text-center text-nowrap font-sans tracking-widest underline-offset-2 divide-x divide-black">
+                <Link className=" hover:underline px-2" href="/projects">
                     Projects
                 </Link>
-                <Link className=" hover:underline" href="/design">
+                <Link className=" hover:underline px-2" href="/design">
                     Design and Material
                 </Link>
-                <Link className=" hover:underline" href="/about">
+                <Link className=" hover:underline px-2" href="/about">
                     Our Story
                 </Link>
-                <Link className=" hover:underline" href="/contact">
+                <Link className=" hover:underline px-2" href="/contact">
                     Contact Us
                 </Link>
-                <Link className=" hover:underline" href="/inspiration">
+                <Link className=" hover:underline px-2" href="/inspiration">
                     Inspiration
                 </Link>
             </nav>

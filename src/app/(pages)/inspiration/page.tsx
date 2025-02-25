@@ -263,8 +263,8 @@ export default function Inspiration() {
         <>
             <div className="relative h-[30vh] mx-lg content-end -z-10">
               <div className='flex flex-row justify-between'>
-                <h1>Inspiration Gallery</h1>
-                <p className='inline-block w-1/2 pl-lg pt-sm text-[0.9em] leading-6 align-text-top'>This is a collection of Motherstructures images that we have taken during the process of installing and maintaining motherstructures.
+                <h1 className='align-top'>Inspiration Gallery</h1>
+                <p className='w-2/3 pl-lg pt-[1.4rem]'>This is a collection of Motherstructures images that we have taken during the process of installing and maintaining motherstructures.
                   These are some examples of how our structures can actually look in action, as well as some creative ways that our clients have used them.
                 </p>
               </div>

@@ -1,7 +1,7 @@
 export const Video = () => {
     return (
         <div className="absolute w-full h-full overflow-hidden -z-40">
-            <div className="absolute size-full bg-white/30 -z-40" />
+            <div className="absolute size-full bg-white/20 -z-40" />
             <div className="absolute size-full -z-50">
                 <video
                     width={2560}

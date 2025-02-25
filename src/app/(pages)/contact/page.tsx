@@ -35,7 +35,7 @@ export default function Contact() {
                 text="Build your own Motherstructure"
             />
             <h1 className="w-full my-lg text-center">Contact Us</h1>
-            <div className="bg-secondary m-lg shadow-[5px_5px_0_0_#171717]">
+            <div className="my-lg">
                 <div className="flex flex-col justify-center items-center gap-20 p-lg">
                     <form className="flex flex-col items-center gap-8 text-pretty">
                         <h2>Tell us about your project</h2>
@@ -195,7 +195,7 @@ export default function Contact() {
                         <input
                             type="submit"
                             value="Submit"
-                            className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[5px_5px_0_0_#171717] hover:shadow-[-5px_-5px_0_0_#171717] hover:bg-primary hover:cursor-pointer"
+                            className="w-fit text-[1.8em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0_0_#171717] hover:shadow-[-4px_-4px_0_0_#171717] bg-gray hover:bg-primary hover:cursor-pointer"
                         />
                     </form>
                 </div>

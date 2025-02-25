@@ -30,6 +30,8 @@ export default {
                 primary: 'var(--primary)',
                 secondary: 'var(--secondary)',
                 tertiary: 'var(--tertiary)',
+                gray: 'var(--gray)',
+                mono: 'var(--mono)',
             },
             fontFamily: {
                 vollkorn: ['"Vollkorn"', 'serif'],

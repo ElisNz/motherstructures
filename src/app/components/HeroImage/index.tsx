@@ -18,13 +18,10 @@ export const HeroImage = ({
             <div className="absolute w-full h-[40vh] md:h-[75vh] lg:h-screen flex flex-col justify-center items-center mix-blend-normal">
                 <div className="absolute w-full h-full bg-white/10 z-10" />
                 <h1
-                    className={`invisible sm:visible lg:px-20 lg:text-[2.5rem] xl:text-[3.5rem] z-50 ${textcolor ? 'text-' + textcolor : ''}`}
+                    className={`invisible sm:visible lg:px-20 lg:text-[2.5rem] xl:text-[3.5rem] z-50 ${textcolor ? 'text-' + textcolor : ''} [text-shadow:_1px_1px_36px_#283033]`}
                 >
                     {text}
                 </h1>
-                {textcolor && textcolor === 'white' && (
-                    <div className="absolute w-2/3 h-20 invisible sm:visible lg:px-20 z-40 bg-black/30 blur-2xl" />
-                )}
             </div>
             <div className="relative w-full h-screen -z-50">
                 <Image

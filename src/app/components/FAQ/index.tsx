@@ -8,12 +8,12 @@ export const FAQ = () => {
 
         return (
             <div
-                className="w-full flex flex-col bg-black text-white hover:cursor-pointer"
+                className="w-full flex flex-col hover:cursor-pointer"
                 onClick={() => setOpen(!open)}
             >
-                <p className=" p-4 hover:bg-black/50 text-starte">{question}</p>
+                <h3 className="p-4 text-start">{question}</h3>
                 {open && (
-                    <p className="w-full bg-black text-white px-8 pb-8 hover:bg-black/50 breadtext border-b-2 border-white">
+                    <p className="w-full px-8 pb-8 border-b-2 border-white font-sans text-[1rem]">
                         {answer}
                     </p>
                 )}
@@ -41,7 +41,7 @@ export const FAQ = () => {
     ];
 
     return (
-        <div className="bg-black text-white divide-y-2 divide-white m-20 p-20 rounded-sm">
+        <div className="bg-tertiary text-white divide-y-2 divide-white m-20 p-20 rounded-sm">
             <h1>FAQ</h1>
             <ul className="">
                 {items.map((item, index) => (
