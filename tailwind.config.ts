@@ -39,6 +39,7 @@ export default {
                 geist: ['"Geist"', 'sans-serif'],
             },
             padding: {
+                xs: '0.25rem',
                 sm: '1rem',
                 md: '2rem',
                 lg: '4rem',

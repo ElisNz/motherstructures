@@ -17,11 +17,11 @@ export default function Home() {
                     outside with the comforts of being inside.{' '}
                 </p>
             </div> */}
-            <div className='h-screen flex flex-col items-center justify-center'>
-            <h1 className="invisible sm:visible lg:px-lg lg:text-[3rem] xl:text-[3.5rem] font-black pt-[30vh] pb-lg [text-shadow:_1px_1px_40px_#283033/50] tracking-wide">
+            <div className='h-screen flex flex-col items-center justify-center text-white [text-shadow:_0.5px_0.5px_1px_#000000]'>
+            <h1 className="invisible sm:visible lg:px-lg lg:text-[3rem] xl:text-[3.5rem] font-black pt-[30vh] pb-lg tracking-[0.65rem]">
                     Winter gardens for modern spaces
                 </h1>
-            <div className="relative flex flex-row justify-evenly py-lg mx-lg [text-shadow:_1px_1px_36px_#283033]">
+            <div className="relative flex flex-row justify-center py-lg mx-lg">
                 <h2 className='w-1/2 text-pretty py-sm leading-10 tracking-wide'>
                     We build super light modular structures that bridge the gap
                     between indoors and outdoors. <br />Our affordable designs are
@@ -30,34 +30,34 @@ export default function Home() {
                 <div className='w-1/3 flex flex-col gap-2 items-end text-nowrap text-[2rem] tracking-wide'>
                   <Link
                       href="/projects"
-                      className="capitalize w-full text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#283033] hover:shadow-none hover:bg-primary"
+                      className="capitalize w-full text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#FFFFFF] hover:shadow-none hover:bg-primary hover:text-white"
                   >
                       discover our projects
                   </Link>
                   <Link
                       href="/inspiration"
-                      className="capitalize w-[80%] text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#283033] hover:shadow-none hover:bg-secondary hover:text-white"
+                      className="capitalize w-[80%] text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#FFFFFF] hover:shadow-none hover:bg-secondary hover:text-white"
                   >
                       get inspired
                   </Link>
                   <Link
                       href="/contact"
-                      className="capitalize w-fit text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#283033] hover:shadow-none hover:bg-[#283033]/70 hover:text-white"
+                      className="capitalize w-fit text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#FFFFFF] hover:shadow-none hover:bg-[#283033]/70 hover:text-white"
                   >
                       get in touch
                   </Link>
                 </div>
             </div>
             </div>
-            <div className="flex flex-row gap-8 mx-lg py-lg">
-                <div className="w-2/3 flex flex-col">
+            <div className="flex flex-row items-center gap-8 mx-lg py-lg">
+                <div className="w-1/2 flex flex-col">
                     <h3 className="text-pretty pt-4 pb-2 text-left tracking-tight">
                         "Motherstructures has created a beautiful and super
                         unique solution that perfectly complements who we are.
                         Our courtyard has been transformed into a three-season
                         dining room that wows our customers."
                     </h3>
-                    <p className="pb-8 text-right tracking-tighter text-[1em] font-sans">
+                    <p className="pb-md pt-xs text-right tracking-tighter text-[1em] font-sans">
                         Jeff Gimmel, Proprietor, Le Perche Bakery & Bar
                     </p>
                     <Link
@@ -67,14 +67,13 @@ export default function Home() {
                         Learn More
                     </Link>
                 </div>
-                <div className="relative w-1/2">
                     <Image
                         src="/images/Le Perche.jpg"
-                        fill
+                        width={700}
+                        height={400}
                         alt="outdoors"
-                        className="lg:rounded-sm object-cover"
+                        className="lg:rounded-sm object-fit"
                     />
-                </div>
             </div>
             <div className="mx-xl my-lg">
                 <ul className="grid grid-cols-3 gap-8 justify-center">

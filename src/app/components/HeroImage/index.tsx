@@ -18,7 +18,7 @@ export const HeroImage = ({
             <div className="absolute w-full h-[40vh] md:h-[75vh] lg:h-screen flex flex-col justify-center items-center mix-blend-normal">
                 <div className="absolute w-full h-full bg-white/10 z-10" />
                 <h1
-                    className={`invisible sm:visible lg:px-20 lg:text-[2.5rem] xl:text-[3.5rem] z-50 ${textcolor ? 'text-' + textcolor : ''} [text-shadow:_1px_1px_36px_#283033]`}
+                    className={`invisible sm:visible lg:px-20 lg:text-[2.5rem] xl:text-[3.5rem] z-50 ${textcolor ? 'text-' + textcolor : ''} [text-shadow:_0.5px_0.5px_1px_#000000]`}
                 >
                     {text}
                 </h1>

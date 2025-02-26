@@ -314,7 +314,7 @@ export default async function Project({
             />
             <div className="flex flex-col gap-2 items-center mx-lg p-lg rounded-sm tracking-tighter">
                 <h3 className="text-center">"{quote}"</h3>
-                <p className="self-end">{attributee}</p>
+                <p className="self-end pb-8 tracking-tighter text-[1em] font-sans px-md">{attributee}</p>
             </div>
             <div className="flex flex-col gap-y-4 mx-md p-lg bg-secondary text-white rounded-sm">
                 <div className="flex flex-row items-center">
@@ -326,11 +326,11 @@ export default async function Project({
                             className="object-cover rounded-sm"
                         />
                     </div>
-                    <h2 className="w-1/3 text-pretty text-center">
+                    <h2 className="w-1/3 px-lg text-center">
                         About {title}
                     </h2>
                 </div>
-                <p className="breadtext text-pretty">{topText}</p>
+                <p className="text-pretty">{topText}</p>
             </div>
             <div className="mx-md my-md px-lg pt-lg grid grid-cols-2 tracking-wide gap-[1rem]">
                 <div className="w-full flex flex-col shrink-1">
@@ -345,7 +345,7 @@ export default async function Project({
                                     className="object-fit max-h-[90vh] rounded-sm"
                                 />
                             )}
-                            <p className="breadtext py-lg px-md">
+                            <p className="py-lg px-md">
                                 {section.text}
                             </p>
                         </div>
@@ -354,7 +354,7 @@ export default async function Project({
                 <div className="flex flex-col shrink-1">
                     {sectionsr?.map((section, index) => (
                         <div key={index} className="flex flex-col items-start">
-                            <p className="breadtext py-lg px-md">
+                            <p className="py-lg px-md">
                                 {section.text}
                             </p>
                             {section.img && (
