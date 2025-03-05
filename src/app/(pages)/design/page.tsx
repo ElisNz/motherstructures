@@ -10,8 +10,8 @@ export default function Design() {
                 text="Fast to build, easy to modify"
                 textcolor="white"
             />
-            <div className="flex flex-col gap-8 mb-lg p-lg bg-secondary">
-                <h2 className="px-sm pb-md mt-sm text-start self-end font-[Verdana] font-bold text-[2.5em]">
+            <div className="flex flex-col gap-8 mb-lg p-lg bg-gray">
+                <h2 className="px-sm pb-md mt-sm text-start self-end font-bold text-[2.5em]">
                     Motherstructures are modular, durable, lightweight, and
                     completely one-of-a-kind. Because of the flexibility of our
                     systems, we can design and customize each project from
@@ -83,7 +83,7 @@ export default function Design() {
                     </div>
                 </div>
             </div>
-            <div className="m-lg px-lg flex flex-row items-center bg-gray">
+            <div className="px-lg flex flex-row items-center bg-gray">
                 <Image
                     src="/images/Chez-Oskar-DM-Resize.jpg"
                     width={800}
@@ -127,8 +127,7 @@ export default function Design() {
                     <h3 className="text-pretty pt-md leading-8">
                         Our lightweight grid of metal pipes and plastic allows
                         for an even weight distribution with multiple
-                        anchorpoints. <br />
-                        This results in a safe and sturdy structure that can
+                        anchorpoints. This results in a safe and sturdy structure that can
                         weather extreme storms and carry heavy snow loads (well
                         above the NY state rule of 40 lbs per sq. foot)
                     </h3>

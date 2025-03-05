@@ -126,7 +126,7 @@ const projects = [
         attributee: 'Robert Sanfiz, General Manager, La Nacional',
         topImage: '/images/La Nacional 3.jpg',
         topText: `This 150+-year-old restaurant — the oldest Spanish social and cultural institution in the United States —
-    has benefitted year-round from its multi-tasking Motherstructure. The boldly curved construction transforms from an open-air canopy in the summer to a translucent, sculptural shelter with modular doors and walls during the colder months.`,
+          has benefitted year-round from its multi-tasking Motherstructure. The boldly curved construction transforms from an open-air canopy in the summer to a translucent, sculptural shelter with modular doors and walls during the colder months.`,
         sectionsl: [
             {
                 img: '/images/240517_ La_Nacional .jpg',
@@ -144,35 +144,6 @@ const projects = [
             },
         ],
         bottomImage: '/images/La Nacional Drawing.jpg',
-    },
-    {
-        id: 5,
-        title: 'DSK',
-        slug: 'dsk-canopy',
-        heroImage: '/images/outdoor2.jpg',
-        textColor: 'white',
-        description: 'DSK — Covered Courtyard with transom windows',
-        quote: 'The structure is not only beautiful but cost-effective. When we initially looked into covering the courtyard, every other solution was two or three times more expensive and nowhere near as unique.',
-        attributee: 'Jeff Gimmel, Proprietor, Le Perche',
-        topImage: '/images/La Nacional 3.jpg',
-        topText: `The soaring Motherstructure that covers the large patio of this popular French-inspired bakery and restaurant in Hudson, New York, solved several business-critical problems. It connected the rear building that houses the bakery with the main restaurant, allowing the all-day, back-and-forth transportation of baked goods to run smoothly without weather interference. It also gave the restaurant a nearly year-round oasis for events and consistent capacity dining.`,
-        sectionsl: [
-            {
-                img: '/images/IMG-20240201-DSK-WA00102.jpg',
-                text: `When the weather cools down in the fall, modular walls can be added to block drafty passages. Because the design is flexible and versatile, it’s easy to build around existing architectural elements like staircases and ledges. The material is cut and customized to precision and suspended in ways that take up minimal space. Invisible built-in gutters direct rainwater away from walls while being easy to clean and maintain.`,
-            },
-
-            {
-                img: '/images/240517_La Nacional.jpg',
-            },
-        ],
-        sectionsr: [
-            {
-                img: '/images/IMG-20240201-DSK-WA00052.jpg',
-                text: `The design, especially the lofty 20-foot center cupola, was inspired by the Art Nouveau architecture of Victorian winter gardens, but rendered in a modern, modular, and low-maintenance version. The structure has been engineered to naturally provide ventilation and cooling, as air circulates through the remote-controlled electric transoms and side windows.`,
-            },
-        ],
-        bottomImage: '/images/DSK-DM-f-crop.jpg',
     },
     {
         id: 6,
@@ -200,28 +171,6 @@ const projects = [
         bottomImage: '/images/DSK-DM-f-crop.jpg',
     },
     {
-        id: 7,
-        title: 'Amnway Eatery',
-        slug: 'amnway',
-        heroImage: '/images/hhhggtt.jpg',
-        textColor: 'white',
-        description: 'Amnway Eatery',
-        quote: 'The structure is not only beautiful but cost-effective. When we initially looked into covering the courtyard, every other solution was two or three times more expensive and nowhere near as unique.',
-        attributee: 'Jeff Gimmel, Proprietor, Le Perche',
-        topImage: '/images/hhhggtt.jpg',
-        topText: `The soaring Motherstructure that covers the large patio of this popular French-inspired bakery and restaurant in Hudson, New York, solved several business-critical problems. It connected the rear building that houses the bakery with the main restaurant, allowing the all-day, back-and-forth transportation of baked goods to run smoothly without weather interference. It also gave the restaurant a nearly year-round oasis for events and consistent capacity dining.`,
-        sectionsl: [
-            {
-                img: '/images/amnway.jpg',
-            },
-        ],
-        sectionsr: [
-            {
-                text: `The design, especially the lofty 20-foot center cupola, was inspired by the Art Nouveau architecture of Victorian winter gardens, but rendered in a modern, modular, and low-maintenance version. The structure has been engineered to naturally provide ventilation and cooling, as air circulates through the remote-controlled electric transoms and side windows.`,
-            },
-        ],
-    },
-    {
         id: 8,
         title: 'Secret Garden',
         slug: 'secret-garden',
@@ -243,30 +192,6 @@ const projects = [
             },
         ],
         bottomImage: '/images/IMG-20240201-WA0020.jpg',
-    },
-    {
-        id: 9,
-        title: 'Zaca Cafe',
-        slug: 'zaca',
-        heroImage: '/images/gggsdfdf.jpg',
-        textColor: 'white',
-        description: 'Zaca Cafe',
-        quote: 'The structure is not only beautiful but cost-effective. When we initially looked into covering the courtyard, every other solution was two or three times more expensive and nowhere near as unique.',
-        attributee: 'Jeff Gimmel, Proprietor, Le Perche',
-        topImage: '/images/gggsdfdf.jpg',
-        topText: `The soaring Motherstructure that covers the large patio of this popular French-inspired bakery and restaurant in Hudson, New York, solved several business-critical problems. It connected the rear building that houses the bakery with the main restaurant, allowing the all-day, back-and-forth transportation of baked goods to run smoothly without weather interference. It also gave the restaurant a nearly year-round oasis for events and consistent capacity dining.`,
-        sectionsl: [
-            {
-                img: '/images/Zaca-Cefe-fyg.jpg',
-                text: 'Researching materials, Charlotta discovered that ultra-light steel pipes and corrugated clear polycarbonate siding were perfect for the kind of dining structures she wanted to create. The versatile system gave her the freedom to create canopies with curves and connections of various angles. The flexible assembly also allowed for easy modifications and “editing.”',
-            },
-        ],
-        sectionsr: [
-            {
-                img: '/images/Zaca-cafe-11.jpg',
-                text: `The design, especially the lofty 20-foot center cupola, was inspired by the Art Nouveau architecture of Victorian winter gardens, but rendered in a modern, modular, and low-maintenance version. The structure has been engineered to naturally provide ventilation and cooling, as air circulates through the remote-controlled electric transoms and side windows.`,
-            },
-        ],
     },
 ];
 

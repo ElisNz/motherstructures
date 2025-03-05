@@ -18,9 +18,10 @@ export default function Home() {
                 </p>
             </div> */}
             <div className='h-screen flex flex-col items-center justify-center text-white [text-shadow:_0.5px_0.5px_1px_#000000]'>
-            <h1 className="invisible sm:visible lg:px-lg lg:text-[3rem] xl:text-[3.5rem] font-black pt-[30vh] pb-lg tracking-[0.65rem]">
+            <h1 className="invisible sm:visible lg:px-lg lg:text-[3rem] xl:text-[3.5rem] font-black pb-lg tracking-[0.65rem]">
                     Winter gardens for modern spaces
                 </h1>
+            </div>
             <div className="relative flex flex-row justify-center py-lg mx-lg">
                 <h2 className='w-1/2 text-pretty py-sm leading-10 tracking-wide'>
                     We build super light modular structures that bridge the gap
@@ -30,24 +31,23 @@ export default function Home() {
                 <div className='w-1/3 flex flex-col gap-2 items-end text-nowrap text-[2rem] tracking-wide'>
                   <Link
                       href="/projects"
-                      className="capitalize w-full text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#FFFFFF] hover:shadow-none hover:bg-primary hover:text-white"
+                      className="capitalize w-full text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#000000] hover:shadow-none hover:bg-primary hover:text-white"
                   >
                       discover our projects
                   </Link>
                   <Link
                       href="/inspiration"
-                      className="capitalize w-[80%] text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#FFFFFF] hover:shadow-none hover:bg-secondary hover:text-white"
+                      className="capitalize w-[80%] text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#000000] hover:shadow-none hover:bg-secondary hover:text-white"
                   >
                       get inspired
                   </Link>
                   <Link
                       href="/contact"
-                      className="capitalize w-fit text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#FFFFFF] hover:shadow-none hover:bg-[#283033]/70 hover:text-white"
+                      className="capitalize w-fit text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#000000] hover:shadow-none hover:bg-[#283033]/70 hover:text-white"
                   >
                       get in touch
                   </Link>
                 </div>
-            </div>
             </div>
             <div className="flex flex-row items-center gap-8 mx-lg py-lg">
                 <div className="w-1/2 flex flex-col">

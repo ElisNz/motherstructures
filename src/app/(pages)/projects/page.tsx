@@ -60,34 +60,16 @@ const projects = [
         slug: 'la-nacional',
     },
     {
-        title: 'DSK Canopy',
-        img: '/images/outdoor2.jpg',
-        description: 'Outdoor Canopy',
-        slug: 'dsk-canopy',
-    },
-    {
         title: 'Hudson Milliner',
         img: '/images/Hudson_Milliner-WA0063.jpg',
         description: 'Outdoor Canopy',
         slug: 'hudson-milliner',
     },
     {
-        title: 'Anmwey Eatery',
-        img: '/images/amnway.jpg',
-        description: 'Outdoor Canopy',
-        slug: 'amnway',
-    },
-    {
         title: 'Secret Garden',
         img: '/images/Secret-Garden-sidewalk-1.jpg',
         description: 'Outdoor Canopy',
         slug: 'secret-garden',
-    },
-    {
-        title: 'Zaca Cafe',
-        img: '/images/Zaca-Cefe-fyg.jpg',
-        description: 'Outdoor Canopy',
-        slug: 'zaca',
     },
 ];
 
@@ -107,7 +89,7 @@ export default function Projects() {
                   </h2>
               </div>
               <div className="h-fit flex flex-row p-lg">
-                  <h2>Our Projects</h2>
+{/*                   <h2>Our Projects</h2> */}
                   <div className="h-fit flex flex-wrap justify-evenly gap-y-12">
                       {projects.map((project, index) => (
                           <ProjectCard key={index} {...project} />
