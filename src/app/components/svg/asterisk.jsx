@@ -3,8 +3,8 @@ export default () => (
         version="1.1"
         id="svg2"
         xmlns="http://www.w3.org/2000/svg"
-        width="40px"
-        height="40px"
+        width="35px"
+        height="35px"
         viewBox="0 0 1200 1200"
     >
         <path

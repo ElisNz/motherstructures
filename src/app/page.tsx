@@ -157,12 +157,6 @@ export default function Home() {
                   >
                       Explore our design components
                   </Link>
-                  <Link
-                      href="/about"
-                      className="font-[vollkorn] w-1/2 text-[1.4em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_1px_0_#171717] hover:shadow-none hover:bg-primary"
-                  >
-                      About
-                  </Link>
                 </div>
             </div>
             <div className="flex flex-col items-center gap-8 m-lg py-md">

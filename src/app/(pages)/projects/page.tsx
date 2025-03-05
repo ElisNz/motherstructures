@@ -16,7 +16,7 @@ const ProjectCard = ({
     return (
         <Link
             href={`projects/${slug}`}
-            className="relative w-[450px] h-[400px] transition-all duration-1000 hover:w-[500px] text-black"
+            className="relative w-[450px] h-[400px] transition-all duration-1000 text-black"
         >
             <Image
                 src={img}
@@ -81,16 +81,16 @@ export default function Projects() {
                 text="Explore our projects"
                 textcolor="white"
             />
-            <div className='p-lg mx-lg'>
+            <div className='py-lg mx-lg'>
               <div className="flex flex-row justify-center">
                   <h2 className="px-xl">
                       Each Motherstructure that we have built is a site-specific
                       solution for small or large spaces with unique needs.
                   </h2>
               </div>
-              <div className="h-fit flex flex-row p-lg">
+              <div className="h-fit flex flex-row py-lg">
 {/*                   <h2>Our Projects</h2> */}
-                  <div className="h-fit flex flex-wrap justify-evenly gap-y-12">
+                  <div className="h-fit flex flex-wrap gap-4">
                       {projects.map((project, index) => (
                           <ProjectCard key={index} {...project} />
                       ))}
