@@ -1,3 +1,5 @@
+'use client';
+
 import { HeroImage } from '../../components/HeroImage';
 import { useEffect } from 'react';
 import ContactForm from '@/app/components/ContactForm';

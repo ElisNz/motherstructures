@@ -18,7 +18,7 @@ export default function Home() {
                 </p>
             </div> */}
             <div className='h-screen flex flex-col items-center justify-center text-white [text-shadow:_0.5px_0.5px_1px_#000000]'>
-            <h1 className="invisible sm:visible lg:px-lg lg:text-[3rem] xl:text-[3.5rem] font-black pb-lg tracking-[0.65rem]">
+            <h1 className="invisible sm:visible lg:px-lg lg:text-[3rem] xl:text-[3.5rem] font-black pb-lg tracking-[0.4rem]">
                     Winter gardens for modern spaces
                 </h1>
             </div>
