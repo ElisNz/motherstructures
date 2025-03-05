@@ -241,7 +241,7 @@ export default async function Project({
                 <h3 className="text-center">"{quote}"</h3>
                 <p className="self-end pb-8 tracking-tighter text-[1em] font-sans px-md">{attributee}</p>
             </div>
-            <div className="flex flex-col gap-y-4 mx-md p-lg bg-secondary text-white rounded-sm">
+            <div className="flex flex-col gap-y-4 mx-md p-lg bg-gray rounded-sm">
                 <div className="flex flex-row items-center">
                     <div className="relative w-2/3 min-h-[400px]">
                         <Image
@@ -257,7 +257,7 @@ export default async function Project({
                 </div>
                 <p className="text-pretty">{topText}</p>
             </div>
-            <div className="mx-md my-md px-lg pt-lg grid grid-cols-2 tracking-wide gap-[1rem]">
+            <div className="mx-md px-lg pt-lg grid grid-cols-2 tracking-wide gap-[1rem]">
                 <div className="w-full flex flex-col shrink-1">
                     {sectionsl?.map((section, index) => (
                         <div key={index} className="flex flex-col items-end">
@@ -270,7 +270,7 @@ export default async function Project({
                                     className="object-fit max-h-[90vh] rounded-sm"
                                 />
                             )}
-                            <p className="py-lg px-md">
+                            <p className="py-lg pr-md">
                                 {section.text}
                             </p>
                         </div>
@@ -279,7 +279,7 @@ export default async function Project({
                 <div className="flex flex-col shrink-1">
                     {sectionsr?.map((section, index) => (
                         <div key={index} className="flex flex-col items-start">
-                            <p className="py-lg px-md">
+                            <p className="py-lg pl-md">
                                 {section.text}
                             </p>
                             {section.img && (
@@ -300,8 +300,8 @@ export default async function Project({
                     <Image
                         src={bottomImage}
                         alt={title}
-                        width={2000}
-                        height={2000}
+                        width={1000}
+                        height={1500}
                         className="max-h-[90vh] rounded-sm"
                     />
                     <p className="w-1/2 footnote text-pretty text-center p-sm">
