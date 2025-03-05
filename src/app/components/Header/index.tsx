@@ -13,7 +13,7 @@ export const Header = () => {
                     className="hover:cursor-pointer"
                 />
             </Link>
-            <nav className="max-lg:hidden flex flex-row items-center text-center text-nowrap font-sans tracking-widest underline-offset-2 divide-x divide-black">
+            <nav className="max-lg:hidden flex flex-row items-center text-center text-nowrap font-sans tracking-widest underline-offset-2 divide-x divide-black [text-shadow:_1px_0.5px_2px_#FFFFFF]">
                 <Link className=" hover:underline px-2" href="/projects">
                     Projects
                 </Link>

@@ -22,20 +22,20 @@ export default function Home() {
                     Winter gardens for modern spaces
                 </h1>
             </div>
-            <div className="relative flex flex-row justify-center py-lg mx-lg">
-                <h2 className='w-1/2 text-pretty py-sm leading-10 tracking-wide'>
+            <div className="relative flex flex-col gap-12 justify-between items-center py-lg mx-lg">
+                <h2 className='text-pretty px-xl py-sm tracking-[0.2rem]'>
                     We build super light modular structures that bridge the gap
                     between indoors and outdoors. <br />Our affordable designs are
                     engineered to last but easy to change and customize.
                 </h2>
-                <div className='w-1/3 flex flex-col gap-2 items-end text-nowrap text-[2rem] tracking-wide'>
+                <div className='flex flex-col gap-2 items-center text-nowrap text-[2rem] tracking-wide'>
                   <Link
                       href="/projects"
-                      className="capitalize w-full text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#000000] hover:shadow-none hover:bg-primary hover:text-white"
+                      className="capitalize text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#000000] hover:shadow-none hover:bg-primary hover:text-white"
                   >
                       discover our projects
                   </Link>
-                  <Link
+{/*                   <Link
                       href="/inspiration"
                       className="capitalize w-[80%] text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#000000] hover:shadow-none hover:bg-secondary hover:text-white"
                   >
@@ -46,7 +46,7 @@ export default function Home() {
                       className="capitalize w-fit text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#000000] hover:shadow-none hover:bg-[#283033]/70 hover:text-white"
                   >
                       get in touch
-                  </Link>
+                  </Link> */}
                 </div>
             </div>
             <div className="flex flex-row items-center gap-8 mx-lg py-lg">

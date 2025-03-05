@@ -6,11 +6,11 @@ const projects = [
         id: 1,
         title: 'Chez Oscar',
         slug: 'chez-oscar',
-        heroImage: '/images/outdoor1.jpg',
+        heroImage: '/images/210908_Oskar_ 23 copy.jpg',
         description: 'Chez Oscar - Sidewalk and roadside canopies',
         quote: 'We transformed our outdoor dining experience with a strong and efficient solution that exceeded my expectations',
         attributee: 'Charlotta Janssen - Owner, Chez Oscar',
-        topImage: '/images/200709_Chez_Oskar_ 200730_Hudson_ 0759 1.jpg',
+        topImage: '/images/210925_Chez_Oskar_ 2 copy.jpg',
         textColor: 'white',
         topText: `Chez Oskar’s sidewalk and roadside canopies are the original Motherstructures. 
                 They were born as a response to the restaurant’s struggle with outdoor dining tents (a lifeline during pandemic restrictions in 2021) as they kept blowing away and leaking rain on customers. 
@@ -18,17 +18,17 @@ const projects = [
                 The initial inspiration was Art Nouveau architect Hector Guimard’s iconic sloping canopies for Paris Metro stations.`,
         sectionsl: [
             {
-                img: '/images/200709_Chez_Oskar_ 200730_Hudson_ 0759 1.jpg',
+                img: '/images/230714_Oskar_ 6 copy.jpg',
                 text: `Researching materials, Charlotta discovered that ultra-light steel pipes and corrugated clear polycarbonate siding were perfect for the kind of dining structures she wanted to create. 
                 The versatile system gave her the freedom to create canopies with curves and connections of various angles. The flexible assembly also allowed for easy modifications and “editing.”`,
             },
             {
-                img: '/images/Chez-Oskar-E.jpg',
+                img: '/images/Chez Oskar canopy in progress.jpg',
             },
         ],
         sectionsr: [
             {
-                img: '/images/Chez-Oskar-DM-Resize.jpg',
+                img: '/images/230916_Oskar_0266.jpg',
                 text: `Chez Oskar’s sidewalk and roadside canopies are the original Motherstructures. 
                 They were born as a response to the restaurant’s struggle with outdoor dining tents (a lifeline during pandemic restrictions in 2021) as they kept blowing away and leaking rain on customers. 
                 Motherstructure founder Charlotta, who also owns Chez Oskar, was determined to build something better and adopted “Fight ugly times with beauty” as her rallying cry. 
@@ -40,13 +40,12 @@ const projects = [
                     Plants thrive in the abundant light, and so do guests who love the greenhouse/winter garden atmosphere.`,
             },
         ],
-        bottomImage: '/images/200709_Chez_Oskar_ 200730_Hudson_ 0759 1.jpg',
     },
     {
         id: 2,
         title: 'Le Perche',
         slug: 'le-perche',
-        heroImage: '/images/230609_Le_Perche_ 15.jpg',
+        heroImage: '/images/Le Perche-roof.jpg',
         textColor: 'white',
         description: 'Le Perche - Covered Courtyard with transom windows',
         quote: 'The structure is not only beautiful but cost-effective. When we initially looked into covering the courtyard, every other solution was two or three times more expensive and nowhere near as unique.',
@@ -60,10 +59,10 @@ const projects = [
                 img: '/images/230609_Le_Perche_ 5.jpg',
                 text: `When the weather cools down in the fall, modular walls can be added to block drafty passages. Because the design is flexible and versatile, it’s easy to build around existing architectural elements like staircases and ledges. The material is cut and customized to precision and suspended in ways that take up minimal space. Invisible built-in gutters direct rainwater away from walls while being easy to clean and maintain.`,
             },
-
             {
-                img: '/images/Le Perche by night.jpg',
+              img: '/images/Le Perche by night.jpg',
             },
+            
         ],
         sectionsr: [
             {
@@ -75,10 +74,8 @@ const projects = [
             The canopy’s slim profile offers clear sightlines while taking up minimal sidewalk space. 
             Plants thrive in the abundant light, and so do guests who love the greenhouse/winter garden atmosphere.`,
             },
+            
         ],
-        bottomImage: '/images/Le Perche Copula drawing.jpg',
-        bottomText:
-            'The Motherstructures bring consistent capacity for the business and a beautiful and comfortable environment for all: diners, pedestrians, wheelchair users, and staff.',
     },
     {
         id: 3,
@@ -149,16 +146,16 @@ const projects = [
         id: 6,
         title: 'Hudson - Milliner',
         slug: 'hudson-milliner',
-        heroImage: '/images/Hudson_Clothier_ 5.jpg',
+        heroImage: '/images/Hudson_Milliner-WA0063.jpg',
         textColor: 'white',
         description: 'Hudson - Milliner',
         quote: 'The structure is not only beautiful but cost-effective. When we initially looked into covering the courtyard, every other solution was two or three times more expensive and nowhere near as unique.',
         attributee: 'Jeff Gimmel, Proprietor, Le Perche',
-        topImage: '/images/Hudson_Milliner-WA0063.jpg',
+        topImage: '/images/Hudson-Milliner-DM.jpg',
         topText: `The soaring Motherstructure that covers the large patio of this popular French-inspired bakery and restaurant in Hudson, New York, solved several business-critical problems. It connected the rear building that houses the bakery with the main restaurant, allowing the all-day, back-and-forth transportation of baked goods to run smoothly without weather interference. It also gave the restaurant a nearly year-round oasis for events and consistent capacity dining.`,
         sectionsl: [
             {
-                img: '/images/Hudson_Milliner-WA00612.jpg',
+                img: '/images/milliner-umbrella.jpg',
                 text: `When the weather cools down in the fall, modular walls can be added to block drafty passages. Because the design is flexible and versatile, it’s easy to build around existing architectural elements like staircases and ledges. The material is cut and customized to precision and suspended in ways that take up minimal space. Invisible built-in gutters direct rainwater away from walls while being easy to clean and maintain.`,
             },
         ],
@@ -168,7 +165,6 @@ const projects = [
                 text: `The design, especially the lofty 20-foot center cupola, was inspired by the Art Nouveau architecture of Victorian winter gardens, but rendered in a modern, modular, and low-maintenance version. The structure has been engineered to naturally provide ventilation and cooling, as air circulates through the remote-controlled electric transoms and side windows.`,
             },
         ],
-        bottomImage: '/images/DSK-DM-f-crop.jpg',
     },
     {
         id: 8,
@@ -243,7 +239,7 @@ export default async function Project({
             </div>
             <div className="flex flex-col gap-y-4 mx-md p-lg bg-gray rounded-sm">
                 <div className="flex flex-row items-center">
-                    <div className="relative w-2/3 min-h-[400px]">
+                    <div className="relative w-3/4 h-fit min-h-[400px]">
                         <Image
                             src={topImage}
                             alt="A large image depicting the site"
