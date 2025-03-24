@@ -223,7 +223,6 @@ export default async function Project({
         sectionsl,
         sectionsr,
         bottomImage,
-        bottomText,
     } = project;
 
     return (
@@ -253,7 +252,7 @@ export default async function Project({
                 </div>
                 <p className="text-pretty">{topText}</p>
             </div>
-            <div className="mx-md px-lg pt-lg grid grid-cols-2 tracking-wide gap-[1rem]">
+            <div className="mx-md px-lg pt-lg grid grid-cols-2 tracking-wide gap-[1rem] mb-lg">
                 <div className="w-full flex flex-col shrink-1">
                     {sectionsl?.map((section, index) => (
                         <div key={index} className="flex flex-col items-end">
@@ -300,9 +299,6 @@ export default async function Project({
                         height={1500}
                         className="max-h-[90vh] rounded-sm"
                     />
-                    <p className="w-1/2 footnote text-pretty text-center p-sm">
-                        {bottomText}
-                    </p>
                 </div>
             )}
         </main>
