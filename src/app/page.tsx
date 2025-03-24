@@ -68,7 +68,7 @@ export default function Home() {
                     </Link>
                 </div>
                     <Image
-                        src="/images/Le Perche.jpg"
+                        src="/images/Le_Perche.jpg"
                         width={700}
                         height={400}
                         alt="outdoors"
