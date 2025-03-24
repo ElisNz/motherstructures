@@ -19,11 +19,11 @@ export default function Design() {
                     feature.
                 </h2>
                 <div className="flex flex-row items-center">
-                    <div className="w-1/2 px-lg tracking-widest">
-                        <h2 className="text-[2em] font-bold font-sans">
+                    <div className="w-1/2 px-lg">
+                        <h2 className="text-[2em] font-bold font-sans tracking-widest">
                             More space, less hassle
                         </h2>
-                        <p className="pt-sm">
+                        <p className="pt-sm tracking-wider">
                             Our structures are engineered with modular
                             components. This allows us to maximize every inch of
                             space and easily work around nooks and crannies.
@@ -47,11 +47,11 @@ export default function Design() {
                             className="lg:rounded-sm object-cover"
                         />
                     </div>
-                    <div className="w-1/2 px-lg tracking-widest">
-                        <h2 className="text-[2em] font-bold font-sans">
+                    <div className="w-1/2 px-lg">
+                        <h2 className="text-[2em] font-bold font-sans tracking-widest">
                             Simple materials that solve complex problems
                         </h2>
-                        <p className="pt-sm">
+                        <p className="pt-sm tracking-wider">
                             We use a proprietary system of flexible piping and
                             corrugated clear plastic. It’s light, durable,
                             user-friendly, and infinitely versatile. It’s fast
@@ -91,7 +91,7 @@ export default function Design() {
                     alt="outdoors"
                     className="basis-1/4 lg:rounded-sm"
                 />
-                <div className="basis-4/5 flex flex-col gap-8 items-center p-lg">
+                <div className="basis-4/5 flex flex-col gap-8 items-center p-lg text-center">
                     <h3 className="text-pretty leading-8">
                         Motherstructures has great respect for Mother Nature. We
                         use sustainable technologies for heating and cooling. We

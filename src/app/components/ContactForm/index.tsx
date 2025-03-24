@@ -229,7 +229,7 @@ const handleDrop = (e: any) => {
                 <input
                     type="submit"
                     value="Submit"
-                    className="w-fit text-[1.8em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0_0_#171717] hover:shadow-[-4px_-4px_0_0_#171717] bg-gray hover:bg-primary hover:cursor-pointer"
+                    className="w-fit text-[1.8em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0_0_#171717] hover:shadow-none bg-gray hover:bg-primary hover:cursor-pointer hover:text-white"
                 />
             </form>
         </>

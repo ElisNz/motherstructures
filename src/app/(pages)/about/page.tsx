@@ -14,11 +14,11 @@ export default function About() {
             <div className="my-lg">
                 <div className="flex flex-col lg:flex-row justify-evenly items-center">
                     <div className="w-1/2 h-full flex flex-col justify-center gap-8">
-                        <h1 className="text-start text-nowrap">
+                        <h1 className="text-start text-nowrap font-[Vollkorn]">
                             How it started
                         </h1>
                         <article className="flex flex-row justify-evenly gap-8 text-pretty leading-6 text-[1rem]">
-                            <p className="w-1/2">
+                            <p className="w-1/2 font-sans">
                                 My name is Charlotta Janssen and I’m an artist
                                 and restaurant owner. 2020 was a hell of a year.
                                 When New York City indoor dining shut down, my
@@ -37,7 +37,7 @@ export default function About() {
                                 winter garden meets an outdoor dining shed for
                                 modern times.
                             </p>
-                            <p className="w-1/2">
+                            <p className="w-1/2 font-sans">
                                 Mother Structures are made of humble materials
                                 (steel pipes and corrugated clear plastic
                                 siding) that become elegant and extremely
