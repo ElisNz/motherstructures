@@ -256,36 +256,38 @@ export default async function Project({
                 <div className="w-full flex flex-col shrink-1">
                     {sectionsl?.map((section, index) => (
                         <div key={index} className="flex flex-col items-end">
-                            {section.img && (
-                                <Image
-                                    src={section.img}
-                                    alt={title}
-                                    width={700}
-                                    height={500}
-                                    className="object-fit max-h-[90vh] rounded-sm"
-                                />
-                            )}
+                          {section.img && (
+                            <Image
+                              src={section.img}
+                              alt={title}
+                              width={700}
+                              height={500}
+                              className="object-fit max-h-[90vh] rounded-sm"
+                            />
+                          )}
+                          {('text' in section) && (
                             <p className="py-lg pr-md">
-                                {section.text}
+                              {section.text}
                             </p>
+                          )}
                         </div>
                     ))}
                 </div>
                 <div className="flex flex-col shrink-1">
                     {sectionsr?.map((section, index) => (
                         <div key={index} className="flex flex-col items-start">
-                            <p className="py-lg pl-md">
-                                {section.text}
-                            </p>
-                            {section.img && (
-                                <Image
-                                    src={section.img}
-                                    alt={title}
-                                    width={700}
-                                    height={500}
-                                    className="max-h-[90vh] rounded-sm object-fit"
-                                />
-                            )}
+                          <p className="py-lg pl-md">
+                            {section.text}
+                          </p>
+                          {('img' in section) && (
+                            <Image
+                              src={section.img ?? ''}
+                              alt={title}
+                              width={700}
+                              height={500}
+                              className="max-h-[90vh] rounded-sm object-fit"
+                            />
+                          )}
                         </div>
                     ))}
                 </div>
