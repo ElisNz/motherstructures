@@ -90,7 +90,7 @@ export default function Projects() {
               </div>
               <div className="h-fit flex flex-row py-lg">
 {/*                   <h2>Our Projects</h2> */}
-                  <div className="h-fit flex flex-wrap gap-4">
+                  <div className="h-fit flex flex-wrap gap-4 justify-center">
                       {projects.map((project, index) => (
                           <ProjectCard key={index} {...project} />
                       ))}

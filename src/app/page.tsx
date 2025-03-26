@@ -75,56 +75,56 @@ export default function Home() {
                         className="lg:rounded-sm object-fit"
                     />
             </div>
-            <div className="mx-xl my-lg">
+            <div className="mx-lg xl:mx-xl my-lg">
                 <ul className="grid grid-cols-3 gap-8 justify-center">
-                    <li className="flex flex-col gap-4 px-md leading-6">
+                    <li className="flex flex-col gap-4 px-md">
                         <Asterisk />
-                        <h3 className="font-[Verdana] font-bold text-nowrap">Cheaper than wood</h3>
-                        <p className="text-[0.9rem]">
+                        <h3 className="font-[Verdana] font-bold">Cheaper than wood</h3>
+                        <p className="text-[0.9rem] leading-6">
                             Save costs with easy-to-assemble and affordable
                             materials that can be precisely cut with minimal
                             waste.
                         </p>
                     </li>
-                    <li className="flex flex-col gap-4 px-md leading-6">
+                    <li className="flex flex-col gap-4 px-md">
                         <Asterisk />
-                        <h3 className="font-[Verdana] font-bold text-nowrap">Flexible</h3>
-                        <p className="text-[0.9rem]">
+                        <h3 className="font-[Verdana] font-bold">Flexible</h3>
+                        <p className="text-[0.9rem] leading-6">
                             Our modular structures are easy to adjust. Add doors
                             and windows in the winter, remove them in the
                             spring.
                         </p>
                     </li>
-                    <li className="flex flex-col gap-4 px-md leading-6">
+                    <li className="flex flex-col gap-4 px-md">
                         <Asterisk />
-                        <h3 className="font-[Verdana] font-bold text-nowrap">Safe and sound</h3>
-                        <p className="text-[0.9rem]">
+                        <h3 className="font-[Verdana] font-bold">Safe and sound</h3>
+                        <p className="text-[0.9rem] leading-6">
                             Motherstructures are assembled on an ultra-light and
                             ultra-strong grid that withstands heavy storms and
                             snow.
                         </p>
                     </li>
-                    <li className="flex flex-col gap-4 px-md leading-6">
+                    <li className="flex flex-col gap-4 px-md">
                         <Asterisk />
-                        <h3 className="font-[Verdana] font-bold text-nowrap">Low maintenance</h3>
-                        <p className="text-[0.9rem]">
+                        <h3 className="font-[Verdana] font-bold">Low maintenance</h3>
+                        <p className="text-[0.9rem] leading-6">
                             Motherstructures age gracefully. An annual powerwash
                             is all you need to keep them in ship shape.
                         </p>
                     </li>
-                    <li className="flex flex-col gap-4 px-md leading-6">
+                    <li className="flex flex-col gap-4 px-md">
                         <Asterisk />
-                        <h3 className="font-[Verdana] font-bold text-nowrap">Built-in gutters</h3>
-                        <p className="text-[0.9rem]">
+                        <h3 className="font-[Verdana] font-bold">Built-in gutters</h3>
+                        <p className="text-[0.9rem] leading-6">
                             We engineer elegant gutters that guide the water
                             along the structure and are easy to reach and clean.
                             The water runoff feeds plants.
                         </p>
                     </li>
-                    <li className="flex flex-col gap-4 px-md leading-6">
+                    <li className="flex flex-col gap-4 px-md">
                         <Asterisk />
-                        <h3 className="font-[Verdana] font-bold text-nowrap">Room to grow</h3>
-                        <p className="text-[0.9rem]">
+                        <h3 className="font-[Verdana] font-bold">Room to grow</h3>
+                        <p className="text-[0.9rem] leading-6">
                             Add consistent capacity to your business or expand
                             your home with a space that acts as a hybrid between
                             the indoors and outdoors.{' '}
