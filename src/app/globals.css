@@ -28,26 +28,27 @@ body {
 }
 
 h1 {
-    font-size: 1.3rem;
+    font-size: 32px;
     font-weight: 300;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 26px;
     font-weight: 300;
     font-family: Vollkorn, serif;
 }
 
 h3 {
-    font-size: 1.1rem;
+    font-size: 18px;
     font-weight: 300;
     font-family: 'Times New Roman', Times, serif;
 }
 
 p {
-    font-size: 0.8rem;
-    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 400;
 }
 
 
@@ -68,7 +69,8 @@ p {
     }
 
     p {
-        font-size: 1.1rem;
+        font-size: 1em;
+        font-family: Verdana, sans-serif;
     }
 }
 

@@ -11,14 +11,14 @@ export default function About() {
                 text="Giving birth to Motherstructures"
                 textcolor="white"
             />
-            <div className="my-lg">
+            <div className="my-md lg:my-lg">
                 <div className="flex flex-col lg:flex-row justify-evenly items-center">
-                    <div className="w-1/2 h-full flex flex-col justify-center gap-8">
+                    <div className="px-sm md:px-md h-full flex flex-col justify-center gap-8 py-md">
                         <h1 className="text-start text-nowrap font-[Vollkorn]">
                             How it started
                         </h1>
-                        <article className="flex flex-row justify-evenly gap-8 text-pretty leading-6 text-[1rem]">
-                            <p className="w-1/2 font-sans">
+                        <article className="flex flex-col md:flex-row justify-evenly gap-8 text-pretty leading-6">
+                            <p className="md:w-1/2">
                                 My name is Charlotta Janssen and I’m an artist
                                 and restaurant owner. 2020 was a hell of a year.
                                 When New York City indoor dining shut down, my
@@ -37,7 +37,7 @@ export default function About() {
                                 winter garden meets an outdoor dining shed for
                                 modern times.
                             </p>
-                            <p className="w-1/2 font-sans">
+                            <p className="md:w-1/2">
                                 Mother Structures are made of humble materials
                                 (steel pipes and corrugated clear plastic
                                 siding) that become elegant and extremely
@@ -69,16 +69,16 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div className="my-lg p-lg">
-                <div className="flex flex-col lg:flex-row justify-evenly items-center">
+            <div className="my-md lg:my-lg p-sm lg:p-lg">
+                <div className="flex flex-col max-md:gap-4 md:flex-row justify-evenly items-center">
                     <Image
                         src="/images/outdoor1.jpg"
                         width={600}
                         height={400}
-                        className="w-1/2 rounded-sm"
+                        className="md:w-1/2 rounded-sm"
                         alt="outdoor"
                     />
-                    <div className="w-1/3 flex flex-col justify-center gap-8 text-pretty">
+                    <div className="md:w-1/3 flex flex-col justify-center items-center md:items-start gap-2 lg:gap-8 text-pretty">
                         <h2>Modular one-of-a-kind structures</h2>
                         <p className="text-[1.1rem] font-sans">
                             We create infinitely versatile designs that expand
@@ -91,9 +91,9 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div className="my-lg">
-                <div className="flex flex-col lg:flex-row justify-evenly items-center">
-                    <div className="w-1/3 flex flex-col justify-center gap-8 text-pretty">
+            <div className="my-md lg:my-lg p-sm lg:p-lg">
+                <div className="flex flex-col-reverse max-md:gap-4 md:flex-row justify-evenly items-center">
+                    <div className="md:w-1/3 flex flex-col justify-center items-center md:items-start gap-2 lg:gap-8 text-pretty">
                         <h2>Extraordinary structures from ordinary parts</h2>
                         <p className='text-[1.1rem] font-sans'>
                             Our proprietary system makes innovative use of
@@ -108,7 +108,7 @@ export default function About() {
                         src="/images/About-Page-Section-2-1.jpg"
                         width={600}
                         height={400}
-                        className="w-1/2 rounded-sm"
+                        className="md:w-1/2 rounded-sm"
                         alt="outdoor"
                     />
                 </div>

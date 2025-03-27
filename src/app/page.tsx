@@ -15,7 +15,6 @@ export default function Home() {
         const handleResize = () => {
             setWindowWidth(window.innerWidth);
             setVideoHeight(Math.floor(window.innerWidth / videoAspect));
-            console.log(window.innerWidth / videoAspect);
         };
         window.addEventListener('resize', handleResize);
 
@@ -27,7 +26,7 @@ export default function Home() {
     return (
         <main>
             <Video />
-            <div className={`h-[246px] md:h-[430px] lg:h-[576px] /* h-[${videoHeight}px] */ xl:h-screen flex flex-col items-center justify-center text-white [text-shadow:_0.5px_0.5px_1px_#000000]`}>
+            <div className={`/* h-[246px] md:h-[430px] lg:h-[576px] */ xl:h-screen flex flex-col items-center justify-center text-white [text-shadow:_0.5px_0.5px_1px_#000000]`}>
               <h1 className="px-sm lg:px-lg lg:text-[3rem] xl:text-[3.5rem] font-black text-center lg:pb-lg tracking-[0.4rem]">
                   Winter gardens for modern spaces
               </h1>

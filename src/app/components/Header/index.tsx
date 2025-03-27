@@ -18,6 +18,7 @@ export const Header = () => {
                       alt="Hamburger Menu"
                       width={40}
                       height={40}
+                      className='h-auto'
                   />
               </button>
 
@@ -48,9 +49,10 @@ export const Header = () => {
                 <Image
                     src="/images/MOTHERSTRUCTURES-LOGO-red-B-PNG.jpg"
                     alt="Mother Structures Logo"
+                    priority
                     width={300}
                     height={50}
-                    className="hover:cursor-pointer"
+                    className="h-auto hover:cursor-pointer"
                 />
             </Link>
 
@@ -60,6 +62,7 @@ export const Header = () => {
                     alt="Hamburger Menu"
                     width={40}
                     height={40}
+                    className='h-auto'
                 />
             </button>
 

@@ -10,26 +10,26 @@ export default function Design() {
                 text="Fast to build, easy to modify"
                 textcolor="white"
             />
-            <div className="flex flex-col gap-8 mb-lg p-lg bg-gray">
-                <h2 className="px-sm pb-md mt-sm text-start self-end font-bold text-[2.5em]">
+            <div className="flex flex-col gap-8 mb-lg py-md px-sm md:p-lg bg-gray">
+                <h2 className="px-sm pb-md mt-sm text-start self-end font-bold text-[1.2em] md:text-[2.5em]">
                     Motherstructures are modular, durable, lightweight, and
                     completely one-of-a-kind. Because of the flexibility of our
                     systems, we can design and customize each project from
                     scratch, turning any modification into an elegant design
                     feature.
                 </h2>
-                <div className="flex flex-row items-center">
-                    <div className="w-1/2 px-lg">
-                        <h2 className="text-[2em] font-bold font-sans tracking-widest">
+                <div className="flex flex-col md:flex-row items-center">
+                    <div className="md:w-1/2 px-sm lg:px-lg">
+                        <h2 className="text-[1.5em] md:text-[2em] font-bold font-sans tracking-widest">
                             More space, less hassle
                         </h2>
-                        <p className="pt-sm tracking-wider">
+                        <p className="py-sm tracking-wider">
                             Our structures are engineered with modular
                             components. This allows us to maximize every inch of
                             space and easily work around nooks and crannies.
                         </p>
                     </div>
-                    <div className="relative w-1/2 h-[50vh]">
+                    <div className="relative w-full md:w-1/2 h-[50vh]">
                         <Image
                             src="/images/230609_Le_Perche_ 15.jpg"
                             fill
@@ -38,8 +38,8 @@ export default function Design() {
                         />
                     </div>
                 </div>
-                <div className="flex flex-row items-center">
-                    <div className="relative w-1/2 h-[50vh]">
+                <div className="flex flex-col-reverse md:flex-row items-center">
+                    <div className="relative w-full md:w-1/2 h-[50vh]">
                         <Image
                             src="/images/240517_ Anononymous Detail shot.jpg"
                             fill
@@ -47,11 +47,11 @@ export default function Design() {
                             className="lg:rounded-sm object-cover"
                         />
                     </div>
-                    <div className="w-1/2 px-lg">
-                        <h2 className="text-[2em] font-bold font-sans tracking-widest">
+                    <div className="md:w-1/2 px-sm lg:px-lg">
+                        <h2 className="text-[1.5em] md:text-[2em] font-bold font-sans tracking-widest">
                             Simple materials that solve complex problems
                         </h2>
-                        <p className="pt-sm tracking-wider">
+                        <p className="py-sm tracking-wider">
                             We use a proprietary system of flexible piping and
                             corrugated clear plastic. It’s light, durable,
                             user-friendly, and infinitely versatile. It’s fast
@@ -61,46 +61,46 @@ export default function Design() {
                     </div>
                 </div>
             </div>
-            <div className="m-lg flex flex-row justify-center">
-                <div className="flex flex-col lg:flex-row items-center px-lg rounded-sm">
-                  <div className="w-2/3 flex flex-col">
-                      <h3 className="text-pretty px-lg pb-sm">
+            <div className="lg:m-lg mb-md flex flex-row justify-center">
+                <div className="flex flex-col lg:flex-row items-center lg:px-lg rounded-sm">
+                  <div className="px-md md:px-lg flex flex-col">
+                      <h3 className="text-pretty lg:px-lg pb-sm">
                           "Our Motherstructure provides shelter from the elements
                           and a unique ambiance that allows guest to enjoy fresh
                           air and views of their surroundings."
                       </h3>
-                      <p className="self-end tracking-tighter text-[1em] font-sans pb-md px-lg">
+                      <p className="self-end tracking-tighter font-sans pb-md lg:px-lg">
                           Joy Thomas, Owner, Secret Garden Juice Bar & Tea House
                       </p>
                     </div>
-                    <div className="relative w-1/2 h-[50vh]">
+                    <div className="relative w-full md:w-1/2 h-[50vh]">
                         <Image
                             src="/images/Hudson-Milliner-DM.jpg"
                             fill
                             alt="outdoors"
-                            className="lg:rounded-sm object-cover"
+                            className="lg:rounded-sm object-cover px-sm"
                         />
                     </div>
                 </div>
             </div>
-            <div className="px-lg flex flex-row items-center bg-gray">
+            <div className="px-sm lg:px-lg flex flex-col-reverse md:flex-row items-center bg-gray">
                 <Image
                     src="/images/Chez-Oskar-DM-Resize.jpg"
                     width={800}
                     height={500}
                     alt="outdoors"
-                    className="basis-1/4 lg:rounded-sm"
+                    className="basis-1/4 lg:rounded-sm py-md"
                 />
-                <div className="basis-4/5 flex flex-col gap-8 items-center p-lg text-center">
-                    <h3 className="text-pretty leading-8">
+                <div className="basis-4/5 flex flex-col md:gap-8 items-center py-sm lg:p-lg text-center">
+                    <p className="text-left text-[14px] md:text-[1.3em] lg:text-[1.7em] text-pretty md:leading-8">
                         Motherstructures has great respect for Mother Nature. We
                         use sustainable technologies for heating and cooling. We
                         also harvest rainwater runoff to feed indoor and outdoor
                         gardens.
-                    </h3>
-                    <div className="flex flex-row gap-8 leading-8 px-md text-pretty">
-                        <div className="flex flex-col">
-                            <h3 className="font-sans font-bold text-center text-nowrap p-md">
+                    </p>
+                    <div className="flex flex-col md:flex-row md:gap-8 leading-8 md:px-md text-pretty">
+                        <div className="flex flex-col py-sm">
+                            <h3 className="font-sans font-bold text-center text-nowrap p-sm md:p-md">
                                 Responsible heating
                             </h3>
                             <p className="leading-5 px-sm">
@@ -111,8 +111,8 @@ export default function Design() {
                                 and efficiently.
                             </p>
                         </div>
-                        <div className="flex flex-col">
-                            <h3 className="font-sans font-bold text-center p-md">
+                        <div className="flex flex-col py-sm">
+                            <h3 className="font-sans font-bold text-center p-sm md:p-md">
                                 Low-tech cooling
                             </h3>
                             <p className="leading-5 px-sm">
@@ -124,13 +124,13 @@ export default function Design() {
                             </p>
                         </div>
                     </div>
-                    <h3 className="text-pretty pt-md leading-8">
+                    <p className="text-left text-[14px] md:text-[1.3em] lg:text-[1.7em] text-pretty pt-md md:leading-8">
                         Our lightweight grid of metal pipes and plastic allows
                         for an even weight distribution with multiple
                         anchorpoints. This results in a safe and sturdy structure that can
                         weather extreme storms and carry heavy snow loads (well
                         above the NY state rule of 40 lbs per sq. foot)
-                    </h3>
+                    </p>
                 </div>
             </div>
             <div className="flex flex-col items-center gap-8 m-lg py-md">
