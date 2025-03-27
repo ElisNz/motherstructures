@@ -232,13 +232,14 @@ export default async function Project({
                 text={description}
                 textcolor={textColor}
             />
-            <div className="flex flex-col gap-2 items-center mx-lg p-lg rounded-sm tracking-tighter">
+            <div className="flex flex-col gap-2 items-center lg:mx-lg p-md md:p-lg rounded-sm tracking-tighter">
                 <h3 className="text-center">"{quote}"</h3>
-                <p className="self-end pb-8 tracking-tighter text-[1em] font-sans px-md">{attributee}</p>
+                <p className="md:self-end pb-8 tracking-tighter font-sans px-md">{attributee}</p>
             </div>
-            <div className="flex flex-col gap-y-4 mx-md p-lg bg-gray rounded-sm">
-                <div className="flex flex-row items-center">
-                    <div className="relative w-3/4 h-fit min-h-[400px]">
+
+            <div className="flex flex-col gap-y-4 lg:mx-md p-md md:p-lg bg-gray rounded-sm">
+                <div className="flex flex-col md:flex-row items-center">
+                    <div className="relative w-full md:w-3/4 h-fit min-h-[400px]">
                         <Image
                             src={topImage}
                             alt="A large image depicting the site"
@@ -246,13 +247,14 @@ export default async function Project({
                             className="object-cover rounded-sm"
                         />
                     </div>
-                    <h2 className="w-1/3 px-lg text-center">
+                    <h2 className="md:w-1/3 max-md:pt-md px-lg text-center">
                         About {title}
                     </h2>
                 </div>
-                <p className="text-pretty">{topText}</p>
+                <p className="text-pretty md:pt-md">{topText}</p>
             </div>
-            <div className="mx-md px-lg pt-lg grid grid-cols-2 tracking-wide gap-[1rem] mb-lg">
+
+            <div className="px-sm lg:px-md pt-lg md:grid md:grid-cols-2 tracking-wide gap-[1rem] mb-lg">
                 <div className="w-full flex flex-col shrink-1">
                     {sectionsl?.map((section, index) => (
                         <div key={index} className="flex flex-col items-end">
@@ -266,7 +268,7 @@ export default async function Project({
                             />
                           )}
                           {('text' in section) && (
-                            <p className="py-lg pr-md">
+                            <p className="py-md lg:py-lg md:pr-sm lg:pr-md">
                               {section.text}
                             </p>
                           )}
@@ -276,7 +278,7 @@ export default async function Project({
                 <div className="flex flex-col shrink-1">
                     {sectionsr?.map((section, index) => (
                         <div key={index} className="flex flex-col items-start">
-                          <p className="py-lg pl-md">
+                          <p className="py-md lg:py-lg md:pl-sm lg:pl-md">
                             {section.text}
                           </p>
                           {('img' in section) && (
