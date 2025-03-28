@@ -41,7 +41,7 @@ export const FAQ = () => {
     ];
 
     return (
-        <div className="bg-tertiary text-white divide-y-2 divide-white m-20 p-20 rounded-sm">
+        <div className="bg-tertiary text-white divide-y-2 divide-white m-sm lg:m-lg p-md lg:p-lg lg:rounded-sm">
             <h1>FAQ</h1>
             <ul className="">
                 {items.map((item, index) => (

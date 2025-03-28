@@ -73,7 +73,7 @@ const handleDrop = (e: any) => {
         <>
             <form className="flex flex-col items-center gap-8 text-pretty">
                 <h2>Tell us about your project</h2>
-                <div className="flex flex-row gap-4">
+                <div className="w-full flex flex-col md:flex-row gap-4">
                     <input
                         type="text"
                         placeholder="Name"
@@ -82,7 +82,7 @@ const handleDrop = (e: any) => {
                     <input
                         type="email"
                         placeholder="Email"
-                        className="p-sm border-black rounded-sm breadtext"
+                        className="w-full p-sm border-black rounded-sm breadtext"
                     />
                 </div>
                 <textarea
@@ -94,7 +94,7 @@ const handleDrop = (e: any) => {
                 <h3 className="pt-md">
                     Do you reqire any of these options?
                 </h3>
-                <div className="w-full flex flex-wrap justify-center gap-8">
+                <div className="flex flex-wrap justify-center gap-8">
                     <div className="flex flex-row items-center">
                         <input
                             type="checkbox"
@@ -204,7 +204,7 @@ const handleDrop = (e: any) => {
                         name="dimensions"
                         id="dimensions"
                         placeholder="Approx. sq feet x height range"
-                        className="w-1/2 p-sm border-black rounded-sm breadtext"
+                        className="p-sm border-black rounded-sm breadtext"
                     ></input>
                 </div>
                 <h3 className="pt-md">Upload a photo of your space</h3>

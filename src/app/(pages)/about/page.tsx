@@ -78,7 +78,7 @@ export default function About() {
                         className="md:w-1/2 rounded-sm"
                         alt="outdoor"
                     />
-                    <div className="md:w-1/3 flex flex-col justify-center items-center md:items-start gap-2 lg:gap-8 text-pretty">
+                    <div className="md:w-1/3 flex flex-col justify-center items-center md:items-start gap-2 lg:gap-8 text-pretty text-center md:text-start">
                         <h2>Modular one-of-a-kind structures</h2>
                         <p className="text-[1.1rem] font-sans">
                             We create infinitely versatile designs that expand
@@ -92,7 +92,7 @@ export default function About() {
                 </div>
             </div>
             <div className="my-md lg:my-lg p-sm lg:p-lg">
-                <div className="flex flex-col-reverse max-md:gap-4 md:flex-row justify-evenly items-center">
+                <div className="flex flex-col-reverse max-md:gap-4 md:flex-row justify-evenly items-center text-center md:text-start">
                     <div className="md:w-1/3 flex flex-col justify-center items-center md:items-start gap-2 lg:gap-8 text-pretty">
                         <h2>Extraordinary structures from ordinary parts</h2>
                         <p className='text-[1.1rem] font-sans'>
@@ -113,16 +113,16 @@ export default function About() {
                     />
                 </div>
             </div>
-            <div className="my-lg p-lg">
-                <div className="flex flex-col lg:flex-row justify-evenly items-center">
+            <div className="my-md lg:my-lg p-sm lg:p-lg">
+                <div className="flex flex-col max-md:gap-4 md:flex-row justify-evenly items-center">
                     <Image
                         src="/images/Hudson_Clothier_ 5.jpg"
                         width={600}
                         height={400}
-                        className="w-1/2 rounded-sm"
+                        className="md:w-1/2 rounded-sm"
                         alt="outdoor"
                     />
-                    <div className="w-1/3 flex flex-col justify-center gap-8 text-pretty">
+                    <div className="md:w-1/3 flex flex-col justify-center items-center md:items-start gap-2 lg:gap-8 text-pretty text-center md:text-start">
                         <h2>Discover the possibilities</h2>
                         <h4 className="text-[1.1rem] font-sans">
                             Our influences range from insect wings to the

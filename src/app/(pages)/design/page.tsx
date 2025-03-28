@@ -11,7 +11,7 @@ export default function Design() {
                 textcolor="white"
             />
             <div className="flex flex-col gap-8 mb-lg py-md px-sm md:p-lg bg-gray">
-                <h2 className="px-sm pb-md mt-sm text-start self-end font-bold text-[1.2em] md:text-[2.5em]">
+                <h2 className="px-sm pb-md mt-sm text-start self-end font-bold text-[1.4em] md:text-[2.5em]">
                     Motherstructures are modular, durable, lightweight, and
                     completely one-of-a-kind. Because of the flexibility of our
                     systems, we can design and customize each project from

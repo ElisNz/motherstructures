@@ -37,8 +37,8 @@ export default function Contact() {
                 src="/images/Hudson_Clothier_ 5.jpg"
                 text="Build your own Motherstructure"
             />
-            <h1 className="w-full my-lg text-center">Contact Us</h1>
-            <div className="my-lg">
+            <h1 className="w-full my-md lg:my-lg text-center">Contact Us</h1>
+            <div className="my-md lg:my-lg">
                 <div className="flex flex-col justify-center items-center gap-20 p-lg">
                     <ContactForm />
                 </div>

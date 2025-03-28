@@ -4,7 +4,7 @@ import Image from 'next/image';
 const images = [
     {
         title: 'Le Perche',
-        img: '/images/Le Perche.jpg',
+        img: '/images/Le_Perche.jpg',
         slug: 'le-perche',
     },
     {
@@ -261,10 +261,10 @@ export default function Inspiration() {
 
     return (
         <>
-            <div className="relative h-[30vh] mx-lg content-end -z-10">
-              <div className='flex flex-row justify-between'>
+            <div className="pt-[20vh] mx-lg content-end -z-10">
+              <div className='flex flex-col md:flex-row justify-between'>
                 <h1 className='align-top'>Inspiration Gallery</h1>
-                <p className='w-2/3 pl-lg pt-[1.4rem]'>This is a collection of Motherstructures images that we have taken during the process of installing and maintaining motherstructures.
+                <p className='md:w-2/3 md:pl-lg pt-[1.4rem]'>This is a collection of Motherstructures images that we have taken during the process of installing and maintaining motherstructures.
                   These are some examples of how our structures can actually look in action, as well as some creative ways that our clients have used them.
                 </p>
               </div>
