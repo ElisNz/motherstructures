@@ -1,29 +1,31 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, use } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+
+import Hamburger from '../svg/hamburger';
+import Cross from '../svg/cross';
 
 
 export const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const pathname = usePathname();
+
+    useEffect(() => {
+        setMenuOpen(false);
+    }, [pathname]);
 
     const MobileMenu = () => {
         return (
             <div className="absolute top-0 right-0 w-full h-screen bg-white z-10">
-                <button type='button' className="bg-black absolute top-0 right-0 p-sm lg:hidden" onClick={() => setMenuOpen(!menuOpen)} title='nav menu'>
-                  <Image
-                      src="/vercel.svg"
-                      color='#FFFFFF'
-                      alt="Hamburger Menu"
-                      width={40}
-                      height={40}
-                      className='h-auto'
-                  />
-              </button>
+                <button type='button' className="absolute top-0 right-0 p-sm lg:hidden" onClick={() => setMenuOpen(!menuOpen)} title='nav menu'>
+                  <Cross />
+                </button>
 
                 <nav className="flex flex-col gap-4 items-center justify-center h-full text-3xl font-[Vollkorn, serif] tracking-widest underline-offset-2 [text-shadow:_0_0px_2px_#FFFFFF]">
-                    <Link className=" hover:underline px-4" href="/projects">
+                    <Link className=" hover:underline px-4" href="/projects" prefetch>
                         Projects
                     </Link>
                     <Link className=" hover:underline px-4" href="/design">
@@ -57,19 +59,13 @@ export const Header = () => {
             </Link>
 
             <button type='button' className="bg-blue absolute top-0 right-0 p-sm lg:hidden" onClick={() => setMenuOpen(!menuOpen)} title='navMenu'>
-                <Image
-                    src="/vercel.svg"
-                    alt="Hamburger Menu"
-                    width={40}
-                    height={40}
-                    className='h-auto'
-                />
+              <Hamburger />
             </button>
 
             {menuOpen && <MobileMenu />}
 
             <nav className="max-lg:hidden flex flex-row items-center text-center text-nowrap font-sans tracking-widest underline-offset-2 divide-x divide-black [text-shadow:_0_0px_2px_#FFFFFF]">
-                <Link className=" hover:underline px-2" href="/projects">
+                <Link className=" hover:underline px-2" href="/projects" prefetch>
                     Projects
                 </Link>
                 <Link className=" hover:underline px-2" href="/design">
