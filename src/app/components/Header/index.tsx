@@ -24,7 +24,7 @@ export const Header = () => {
                   <Cross />
                 </button>
 
-                <nav className="flex flex-col gap-4 items-center justify-center h-full text-3xl font-[Vollkorn, serif] tracking-widest underline-offset-2 [text-shadow:_0_0px_2px_#FFFFFF]">
+                <nav className="flex flex-col gap-4 items-center justify-center h-full text-3xl font-[Vollkorn, serif] tracking-widest underline-offset-2 [text-shadow:_0_0px_2px_#FFFFFF] text-tertiary">
                     <Link className=" hover:underline px-4" href="/projects" prefetch>
                         Projects
                     </Link>
@@ -64,7 +64,7 @@ export const Header = () => {
 
             {menuOpen && <MobileMenu />}
 
-            <nav className="max-lg:hidden flex flex-row items-center text-center text-nowrap font-sans tracking-widest underline-offset-2 divide-x divide-black [text-shadow:_0_0px_2px_#FFFFFF]">
+            <nav className="max-lg:hidden flex flex-row items-center text-center text-nowrap font-sans tracking-widest text-black underline-offset-2 [text-shadow:_0_0px_2px_#FFFFFF]">
                 <Link className=" hover:underline px-2" href="/projects" prefetch>
                     Projects
                 </Link>

@@ -10,7 +10,7 @@ export default function Design() {
                 text="Fast to build, easy to modify"
                 textcolor="white"
             />
-            <div className="flex flex-col gap-8 mb-lg py-md px-sm md:p-lg bg-gray">
+            <div className="flex flex-col gap-8 mb-lg py-md px-sm md:p-lg bg-gray dark:bg-tertiary">
                 <h2 className="px-sm pb-md mt-sm text-start self-end font-bold text-[1.4em] md:text-[2.5em]">
                     Motherstructures are modular, durable, lightweight, and
                     completely one-of-a-kind. Because of the flexibility of our
@@ -83,7 +83,7 @@ export default function Design() {
                     </div>
                 </div>
             </div>
-            <div className="px-sm lg:px-lg flex flex-col-reverse md:flex-row items-center bg-gray">
+            <div className="px-sm lg:px-lg flex flex-col-reverse md:flex-row items-center bg-gray dark:bg-tertiary">
                 <Image
                     src="/images/Chez-Oskar-DM-Resize.jpg"
                     width={800}
@@ -142,7 +142,7 @@ export default function Design() {
                 </p>
                 <Link
                     href="/about"
-                    className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_0_0_#171717] hover:shadow-none hover:bg-mono"
+                    className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_0_0_#171717] dark:shadow-[2px_2px_0.9px_0_#dfdfdf] hover:shadow-none hover:bg-mono"
                 >
                     Get in touch
                 </Link>

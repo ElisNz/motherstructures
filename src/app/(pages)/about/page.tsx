@@ -54,7 +54,7 @@ export default function About() {
                                 yourself!
                             </p>
                         </article>
-                        <Link href="/inspiration" className="w-fit text-[1.4em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_0_0_#171717] hover:shadow-none hover:bg-mono">
+                        <Link href="/inspiration" className="w-fit text-[1.4em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_0_0_#171717] dark:shadow-[2px_2px_0.9px_0_#dfdfdf] hover:shadow-none hover:bg-mono">
                             Explore your own motherstructure
                         </Link>
                     </div>
@@ -85,7 +85,7 @@ export default function About() {
                             capacity and bring a unique flair to our clients'
                             spaces.
                         </p>
-                        <button className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_0_0_#171717] hover:shadow-none hover:bg-mono">
+                        <button className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_0_0_#171717] dark:shadow-[2px_2px_0.9px_0_#dfdfdf] hover:shadow-none hover:bg-mono">
                             See what we have built
                         </button>
                     </div>
@@ -100,7 +100,7 @@ export default function About() {
                             simple, everyday materials that are fast and easy to
                             assemble but stand up to any weather conditions.
                         </p>
-                        <button className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_0_0_#171717] hover:shadow-none hover:bg-mono">
+                        <button className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_0_0_#171717] dark:shadow-[2px_2px_0.9px_0_#dfdfdf] hover:shadow-none hover:bg-mono">
                             Learn more about our designs
                         </button>
                     </div>
@@ -130,7 +130,7 @@ export default function About() {
                             makes it possible to make the most fantastical
                             concepts a reality.
                         </h4>
-                        <button className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_0_0_#171717] hover:shadow-none hover:bg-mono">
+                        <button className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_0_0_#171717] dark:shadow-[2px_2px_0.9px_0_#dfdfdf] hover:shadow-none hover:bg-mono">
                             Get inspired
                         </button>
                     </div>

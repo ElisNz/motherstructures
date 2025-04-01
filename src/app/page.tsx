@@ -40,7 +40,7 @@ export default function Home() {
                 <div className='flex flex-col gap-2 items-center text-nowrap text-[2rem] tracking-wide'>
                   <Link
                       href="/projects"
-                      className="capitalize text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#000000] hover:shadow-none hover:bg-primary hover:text-white"
+                      className="capitalize text-center px-md py-sm transition-all duration-500 shadow-[4px_4px_0.9px_0_#000000] dark:shadow-[4px_4px_0.9px_0_#dfdfdf] hover:shadow-none hover:bg-primary hover:text-white"
                   >
                       discover our projects
                   </Link>
@@ -59,7 +59,7 @@ export default function Home() {
                     </p>
                     <Link
                         href="/about"
-                        className="self-center lg:self-start font-[vollkorn] w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_0.9px_0_#283033] hover:shadow-none hover:bg-mono"
+                        className="self-center lg:self-start font-[vollkorn] w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_0.9px_0_#283033] dark:shadow-[2px_2px_0.9px_0_#dfdfdf] hover:shadow-none hover:bg-mono"
                     >
                         Learn More
                     </Link>
@@ -150,7 +150,7 @@ export default function Home() {
                 <div className='[text-shadow:_1.5px_0px_0px_#171717] w-full flex flex-row justify-center text-nowrap'>
                   <Link
                       href="/design"
-                      className="font-[vollkorn] w-fit text-[1.4em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_1px_0_#171717] hover:shadow-none hover:bg-primary"
+                      className="font-[vollkorn] w-fit text-[1.4em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_1px_0_#171717] dark:shadow-[2px_2px_0.9px_0_#dfdfdf] hover:shadow-none hover:bg-primary"
                   >
                       Explore our design components
                   </Link>
@@ -165,7 +165,7 @@ export default function Home() {
                 </p>
                 <Link
                     href="/contact"
-                    className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_0_0_#171717] hover:shadow-none hover:bg-mono"
+                    className="w-fit text-[1.3em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_0_0_#171717] dark:shadow-[2px_2px_0.9px_0_#dfdfdf] hover:shadow-none hover:bg-mono"
                 >
                     Get in touch
                 </Link>
