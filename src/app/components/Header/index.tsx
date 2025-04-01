@@ -64,7 +64,7 @@ export const Header = () => {
 
             {menuOpen && <MobileMenu />}
 
-            <nav className="max-lg:hidden flex flex-row items-center text-center text-nowrap font-sans tracking-widest text-black underline-offset-2 [text-shadow:_0_0px_2px_#FFFFFF]">
+            <nav className="max-lg:hidden flex flex-row items-center text-center text-nowrap font-[Verdana] tracking-wide text-black underline-offset-2 shadow-[4px_4px_0.9px_0_#FFFFFF] text-white p-sm text-[16px] font-black">
                 <Link className=" hover:underline px-2" href="/projects" prefetch>
                     Projects
                 </Link>
