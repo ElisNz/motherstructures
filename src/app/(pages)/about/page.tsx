@@ -12,7 +12,7 @@ export default function About() {
                 textcolor="white"
             />
             <div className="my-md lg:my-lg">
-                <div className="flex flex-col lg:flex-row justify-evenly items-center">
+                <div className="flex flex-col lg:flex-row justify-evenly items-center mx-md">
                     <div className="px-sm md:px-md h-full flex flex-col justify-center gap-8 py-md">
                         <h1 className="text-start text-nowrap font-[Vollkorn]">
                             How it started
@@ -54,20 +54,24 @@ export default function About() {
                                 yourself!
                             </p>
                         </article>
-                        <Link href="/inspiration" className="w-fit text-[1.4em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_0_0_#171717] dark:shadow-[2px_2px_0.9px_0_#dfdfdf] hover:shadow-none hover:bg-mono">
-                            Explore your own motherstructure
-                        </Link>
+                        
                     </div>
-                    <div className="relative">
-                        <Image
-                            src="/images/Chez_Oskar-Charlotta-1-1.png"
-                            className="rounded-sm"
-                            width={400}
-                            height={800}
-                            alt="outdoors"
-                        />
-                    </div>
+                                       
                 </div>
+                <div className='flex flex-row justify-between mx-lg'>
+                  <Link href="/inspiration" className="w-fit h-fit text-[1.4em] tracking-wide bg-secondary/50 text-center px-md py-sm transition-all duration-500 shadow-[2px_2px_0_0_#171717] dark:shadow-[2px_2px_0.9px_0_#dfdfdf] hover:shadow-none hover:bg-mono">
+                        Explore your own motherstructure
+                    </Link>
+                    <div className="relative">
+                    <Image
+                        src="/images/Chez_Oskar-Charlotta-1-1.png"
+                        className="self-center rounded-sm"
+                        width={400}
+                        height={800}
+                        alt="outdoors"
+                    />
+                  </div>
+                </div> 
             </div>
             <div className="my-md lg:my-lg p-sm lg:p-lg">
                 <div className="flex flex-col max-md:gap-4 md:flex-row justify-evenly items-center">

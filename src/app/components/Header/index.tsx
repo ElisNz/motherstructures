@@ -46,7 +46,7 @@ export const Header = () => {
     }
 
     return (
-        <header className="absolute w-full h-fit flex flex-row items-center justify-between py-sm px-md lg:px-20">
+        <header className="absolute w-full h-fit flex flex-row items-center justify-between py-sm px-md lg:px-lg">
             <Link href="/" className="w-1/2">
                 <Image
                     src="/images/MOTHERSTRUCTURES-LOGO-red-B-PNG.jpg"
@@ -64,20 +64,20 @@ export const Header = () => {
 
             {menuOpen && <MobileMenu />}
 
-            <nav className="max-lg:hidden flex flex-row items-center text-center text-nowrap font-[Verdana] tracking-wide text-black underline-offset-2 shadow-[4px_4px_0.9px_0_#FFFFFF] text-white p-sm text-[16px] font-black">
-                <Link className=" hover:underline px-2" href="/projects" prefetch>
+            <nav className="max-lg:hidden flex flex-row items-center text-center text-nowrap font-sans tracking-wide underline-offset-2 [text-shadow:_1px_0.8px_1px_#283033] text-[#FFFFFF] text-[16px] p-sm">
+                <Link className=" hover:underline px-sm" href="/projects" prefetch>
                     Projects
                 </Link>
-                <Link className=" hover:underline px-2" href="/design">
+                <Link className=" hover:underline px-sm" href="/design">
                     Design and Material
                 </Link>
-                <Link className=" hover:underline px-2" href="/about">
+                <Link className=" hover:underline px-sm" href="/about">
                     Our Story
                 </Link>
-                <Link className=" hover:underline px-2" href="/contact">
+                <Link className=" hover:underline px-sm" href="/contact">
                     Contact Us
                 </Link>
-                <Link className=" hover:underline px-2" href="/inspiration">
+                <Link className=" hover:underline px-sm" href="/inspiration">
                     Inspiration
                 </Link>
             </nav>

@@ -40,13 +40,15 @@ export default {
                 geist: ['"Geist"', 'sans-serif'],
             },
             padding: {
-                xs: '0.25rem',
+                xs: '0.15rem',
                 sm: '1rem',
                 md: '2rem',
                 lg: '4rem',
                 xl: '16rem',
             },
             margin: {
+                xs: '0.15rem',
+                sm: '1rem',
                 md: '2rem',
                 lg: '4rem',
                 xl: '16rem',

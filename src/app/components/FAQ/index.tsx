@@ -2,6 +2,8 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
+import Asterisk from '..//svg/asterisk';
+
 export const FAQ = () => {
     const item = (question: string, answer: string) => {
         const [open, setOpen] = useState(false);
@@ -11,9 +13,12 @@ export const FAQ = () => {
                 className="w-full flex flex-col hover:cursor-pointer"
                 onClick={() => setOpen(!open)}
             >
-                <h3 className="p-4 text-start">{question}</h3>
+                <span className='flex flex-row gap-8 p-sm text-start items-center'>
+                  <Asterisk />
+                  <h3 className="">{question}</h3>
+                </span>
                 {open && (
-                    <p className="w-full px-8 pb-8 border-b-2 border-white font-sans text-[1rem]">
+                    <p className="w-full pl-28 pb-8 border-b-2 border-white font-sans text-[1rem]">
                         {answer}
                     </p>
                 )}
@@ -43,9 +48,9 @@ export const FAQ = () => {
     return (
         <div className="bg-tertiary text-white divide-y-2 divide-white m-sm lg:m-lg p-md lg:p-lg lg:rounded-sm">
             <h1>FAQ</h1>
-            <ul className="">
+            <ul className="py-sm">
                 {items.map((item, index) => (
-                    <li key={index} className="list-disc">
+                    <li key={index}>
                         {item}
                     </li>
                 ))}

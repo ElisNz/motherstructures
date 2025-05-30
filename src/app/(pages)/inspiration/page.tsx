@@ -1,11 +1,17 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import {Video} from '@/app/components/Video';
 
 const images = [
     {
         title: 'Le Perche',
         img: '/images/Le_Perche.jpg',
         slug: 'le-perche',
+    },
+    {
+      title: 'Motherstructures Video',
+      vid: '/videos/msvid.mp4',
+      slug: '',
     },
     {
         title: 'La Nacional',
@@ -235,20 +241,39 @@ const images = [
 const InspoCard = ({
     title,
     img,
+    vid,
     slug,
 }: {
     title: string;
-    img: string;
+    img?: string;
+    vid?: string;
     slug: string;
 }) => {
     return (
         <Link
             href={`projects/${slug}`}
-            className="relative transition-all duration-1000 text-black border-2 border-white border-solid"
+            className="relative min-w-1/3 min-h-60 transition-all duration-1000 text-black m-xs bg-white/20"
         >
-            <Image src={img} alt={title} width={1500} height={1500} />
-            <div className="absolute min-w-1/4 min-h-1/4 bottom-0 right-0 justify-center text-white text-center transition duration-300 bg-white/20 hover:bg-white/50">
-                <h3 className="p-sm">{title}</h3>
+            {img &&
+              <Image src={img} alt={title} width={1500} height={1500} />
+            }
+            {vid && 
+              <div className='z-50 bg-red'>       
+                <video 
+                  controls={false}
+                  preload='metadata'
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                >
+                  <source src={vid} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            }
+            <div className="absolute min-w-1/4 min-h-1/4 bottom-0 right-0 m-sm justify-center text-[#283033] text-center transition duration-300 bg-white/40 hover:bg-white/50 rounded-xl">
+                <h3 className="p-sm [text-shadow:_0px_0px_2px_#e8e8e8] font-sans font-semibold text-[18px] tracking-wide">{title}</h3>
             </div>
         </Link>
     );
@@ -269,43 +294,47 @@ export default function Inspiration() {
                 </p>
               </div>
             </div>
-            <div className="lg:hidden flex flex-col justify-center m-lg">
+            <div className="md:hidden flex flex-col justify-center m-lg">
               {images.map((image, index) => (
                         <InspoCard
                             key={index}
                             title={image.title}
                             img={image.img}
+                            vid={image.vid}
                             slug={image.slug}
                         />
                     ))}
             </div>
             <div className="max-md:hidden flex flex-row justify-center m-lg">
-                <div className="flex flex-col">
+                <div className="w-1/3 flex flex-col">
                     {row1.map((image, index) => (
                         <InspoCard
                             key={index}
                             title={image.title}
                             img={image.img}
+                            vid={image.vid}
                             slug={image.slug}
                         />
                     ))}
                 </div>
-                <div className="flex flex-col">
+                <div className="w-1/3 flex flex-col">
                     {row2.map((image, index) => (
                         <InspoCard
                             key={index}
                             title={image.title}
                             img={image.img}
+                            vid={image.vid}
                             slug={image.slug}
                         />
                     ))}
                 </div>
-                <div className="flex flex-col">
+                <div className="w-1/3 flex flex-col">
                     {row3.map((image, index) => (
                         <InspoCard
                             key={index}
                             title={image.title}
                             img={image.img}
+                            vid={image.vid}
                             slug={image.slug}
                         />
                     ))}
