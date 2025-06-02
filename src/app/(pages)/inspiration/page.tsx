@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import {Video} from '@/app/components/Video';
+
 
 const images = [
     {
